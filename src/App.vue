@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <HeaderWithArrow />
-    <ImageWithText />
   </div>
+  <HeaderWithArrow />
+  <ImageWithText />
 </template>
 
 <script>
@@ -14,6 +14,7 @@ export default {
   components: {
     ImageWithText,
     HeaderWithArrow
+
   }
 }
 </script>
