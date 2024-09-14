@@ -5,7 +5,7 @@
         <p class="header-text">
             Nous vous invitons à contempler ces images avec un regard curieux et émerveillé, à ressentir l'atmosphère
             mystique qu'elles dégagent et à réfléchir à leur signification dans le contexte historique et culturel du
-            Moyen Âge.Que vous soyez passionné d'art, d'histoire ou simplement curieux, cette exposition est une
+            Moyen Âge. Que vous soyez passionné d'art, d'histoire ou simplement curieux, cette exposition est une
             occasion unique de redécouvrir un patrimoine souvent méconnu.<br><br>
             Laissez-vous transporter par la magie des vitraux et la lumière qu'ils diffusent, et rejoignez-nous pour
             célébrer l'héritage artistique de nos ancêtres.
@@ -48,26 +48,33 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
 
-.full-screen {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 .section {
     font-family: 'Inknut Antiqua', serif;
     text-align: center;
-    padding: 20px;
-    margin: 20px 0;
+    margin: 5rem;
+
 }
 
 .title {
     font-size: 5rem;
-    margin: 0;
     font-family: 'Inknut Antiqua', serif;
     font-weight: bold;
 }
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.header-text {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
 
 .arrow-down {
     font-size: 2rem;

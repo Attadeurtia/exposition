@@ -1,5 +1,9 @@
-Titre : La Vierge et l'Enfant
-Auteur : Anonyme (Atelier de la Cathédrale de Chartres)
-Lieu de conservation : Cathédrale Notre-Dame de Chartres, France
-Date de création : Vers 1220
-Description : Ce vitrail emblématique représente la Vierge Marie tenant l'Enfant Jésus dans ses bras, entourée de motifs floraux et de figures angéliques. Réalisé dans le style gothique, il se distingue par ses teintes bleu profond et rouge éclatant, symbolisant la royauté et la divinité. La lumière qui pénètre à travers le verre coloré crée une ambiance spirituelle, invitant les fidèles à la contemplation. Ce chef-d'œuvre témoigne du savoir-faire exceptionnel des artisans médiévaux et de l'importance de la Vierge dans la dévotion chrétienne de l'époque.
+**Titre : Reflets de Lumière**
+
+**Artiste : Claire Dubois**
+
+**Date : 2021**
+
+**Technique : Photographie numérique**
+
+**Description :** Cette œuvre captivante explore la relation entre la lumière et l'architecture. À travers un jeu subtil de reflets et de transparences, Claire Dubois capture l'essence d'un bâtiment moderne, transformant son environnement en une toile vivante. Les nuances de couleurs et les formes géométriques se mêlent harmonieusement, invitant le spectateur à contempler la beauté éphémère des instants fugaces. En s'éloignant des conventions, l'artiste nous pousse à réévaluer notre perception de l'espace et de la lumière dans notre quotidien.

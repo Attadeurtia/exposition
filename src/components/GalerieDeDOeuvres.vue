@@ -68,7 +68,7 @@ export default {
 .texte {
   margin-top: 20px;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 

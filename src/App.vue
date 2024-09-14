@@ -3,17 +3,20 @@
   </div>
   <HeaderWithArrow />
   <ImageWithText />
+  <FooterHeures />
 </template>
 
 <script>
 import ImageWithText from './components/GalerieDeDOeuvres.vue'
 import HeaderWithArrow from './components/HeaderWithArrow.vue'
+import FooterHeures from './components/FooterHeures.vue'
 
 export default {
   name: 'App',
   components: {
     ImageWithText,
-    HeaderWithArrow
+    HeaderWithArrow,
+    FooterHeures
 
   }
 }
@@ -25,7 +28,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #c3bec8;
 }
 </style>
