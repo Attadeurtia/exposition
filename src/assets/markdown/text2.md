@@ -1,0 +1,1 @@
+Texte explicatif pour l'image 6
