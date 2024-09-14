@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[116],{116:function(e,n,i){i.r(n),n["default"]="# Description de l'image 1\n\nCeci est une **description** en Markdown pour l'image 1."}}]);
-//# sourceMappingURL=116.360b528e.js.map

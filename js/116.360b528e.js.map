@@ -1,1 +1,0 @@
-{"version":3,"file":"js/116.360b528e.js","mappings":"6GAAA,qG","sources":["webpack://expo/./src/assets/markdown/text1.md"],"sourcesContent":["export default \"# Description de l'image 1\\n\\nCeci est une **description** en Markdown pour l'image 1.\";"],"names":[],"sourceRoot":""}
