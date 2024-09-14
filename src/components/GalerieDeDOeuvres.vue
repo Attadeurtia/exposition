@@ -2,7 +2,7 @@
   <div class="container">
     <div class="item" v-for="(image, index) in images" :key="index">
       <img :src="image.src" :alt="image.alt">
-      <div class="text">{{ image.text }}</div>
+      <div class="texte" v-html="image.text"></div>
     </div>
   </div>
 </template>
@@ -27,18 +27,18 @@ export default {
   },
   methods: {
     async loadMarkdownTexts() {
-  const md = new MarkdownIt();
-  for (let image of this.images) {
-    try {
-      // Charger le fichier Markdown correspondant à l'image
-      const response = await import(`@/assets/markdown/text${image.id}.md`);
-      image.text = md.render(response.default);
-    } catch (error) {
-      console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
+      const md = new MarkdownIt();
+      for (let image of this.images) {
+        try {
+          // Charger le fichier Markdown correspondant à l'image
+          const response = await import(`@/assets/markdown/text${image.id}.md`);
+          image.text = md.render(response.default);
+        } catch (error) {
+          console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
+        }
+      }
     }
-  }
-}
-,
+    ,
   },
 }
 </script>
@@ -49,25 +49,27 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin : 5rem;
+  margin: 5rem;
 }
+
 .item {
   display: flex;
   align-items: center;
   margin-bottom: 100px;
 
 }
+
 .item img {
-  height: 300px; /* Hauteur fixe pour toutes les images */
+  height: 300px;
+  /* Hauteur fixe pour toutes les images */
   margin-right: 100px;
 }
 
-
-.text
-{
-  font-size: 1rem;
-  font-weight: bold;
-  color: #2c3e50;
+.texte {
+  margin-top: 20px;
   text-align: left;
+  font-size: 1.2rem;
 }
+
+
 </style>
