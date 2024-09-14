@@ -1,5 +1,5 @@
 <template>
-    <div class="section">
+    <div class="section full-screen">
         <h1 class="title">Expo</h1>
         <h2 class="subtitle">Par : Geoffrey posé, Mathilde Dupont, Grégoire Xavier et Eugène Delacroix</h2>
         <p class="header-text">
@@ -48,7 +48,12 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
 
-
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .section {
     font-family: 'Inknut Antiqua', serif;
