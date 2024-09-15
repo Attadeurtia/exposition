@@ -103,4 +103,42 @@ export default {
         transform: translateY(-5px);
     }
 }
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    .header-text {
+        font-size: 0.875rem;
+        padding: 0 10px;
+    }
+
+    .arrow-down {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .header-text {
+        font-size: 0.75rem;
+        padding: 0 5px;
+    }
+
+    .arrow-down {
+        font-size: 1.25rem;
+    }
+}
 </style>

@@ -44,32 +44,58 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 5rem;
+  align-items: left;
+  gap: 20px;
+  padding: 20px;
 }
 
 .item {
   display: flex;
-  align-items: center;
-  margin-bottom: 100px;
-
+  flex-direction: row;
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  margin: 10px;
+  text-align: left;
 }
 
 .item img {
-  height: 300px;
-  /* Hauteur fixe pour toutes les images */
-  margin-right: 100px;
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  display: block;
 }
 
 .texte {
-  margin-top: 20px;
-  text-align: left;
+  margin-left: 20px;
   font-size: 1rem;
+  align-self: center;
 }
 
+@media (max-width: 768px) {
+  .item {
+    flex-direction: column;
+  }
 
+  .texte {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+    flex-direction: column;
+  }
+
+  .texte {
+    font-size: 0.75rem;
+  }
+}
 </style>
