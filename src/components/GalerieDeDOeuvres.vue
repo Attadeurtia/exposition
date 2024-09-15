@@ -49,6 +49,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: left;
+  margin: 20px;
   gap: 20px;
   padding: 20px;
 }
@@ -56,42 +57,43 @@ export default {
 .item {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  max-width: 800px;
   box-sizing: border-box;
-  margin: 10px;
+  margin: 50px;
+  margin-top: 40px;
   text-align: left;
+  
 }
 
 .item img {
-  max-width: 100%;
-  max-height: 300px;
-  height: auto;
+max-height: 30rem;
   display: block;
 }
 
 .texte {
   margin-left: 20px;
   font-size: 1rem;
-  align-self: center;
+  align-self: top;
 }
 
 @media (max-width: 768px) {
   .item {
     flex-direction: column;
+    margin: 0px;
+
   }
 
   .texte {
     margin-left: 0;
     margin-top: 10px;
     font-size: 0.875rem;
-    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
   .item {
     flex-direction: column;
+    margin: 0px;
+
   }
 
   .texte {

@@ -104,28 +104,36 @@ export default {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .section {
+        margin: 20px;
+    }
     .title {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .subtitle {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 
     .header-text {
-        font-size: 0.875rem;
-        padding: 0 10px;
+        font-size: 1rem;
     }
 
     .arrow-down {
         font-size: 1.5rem;
     }
+
+    
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
+
+    .section {
+        margin: 20px;
+    }
     .title {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .subtitle {
@@ -133,12 +141,11 @@ export default {
     }
 
     .header-text {
-        font-size: 0.75rem;
-        padding: 0 5px;
+        font-size: 0.875rem;
     }
 
     .arrow-down {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }
 </style>
