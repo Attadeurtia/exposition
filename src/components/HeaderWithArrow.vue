@@ -1,7 +1,7 @@
 <template>
     <div class="section full-screen">
         <h1 class="title">Expo</h1>
-        <h2 class="subtitle">Par : Geoffrey posé, Mathilde Dupont, Grégoire Xavier et Eugène Delacroix</h2>
+        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey posé, Cathy Lebougre, Leocadie Prugne, Julien Foulon et Leo Vincent </h2>
         <p class="header-text">
             Nous vous invitons à contempler ces images avec un regard curieux et émerveillé, à ressentir l'atmosphère
             mystique qu'elles dégagent et à réfléchir à leur signification dans le contexte historique et culturel du
