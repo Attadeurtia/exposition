@@ -2,6 +2,7 @@
   <div id="app">
   </div>
   <HeaderWithArrow />
+  <MapComponent />
   <ImageWithText />
   <FooterHeures />
 </template>
@@ -10,12 +11,15 @@
 import ImageWithText from './components/GalerieDeDOeuvres.vue'
 import HeaderWithArrow from './components/HeaderWithArrow.vue'
 import FooterHeures from './components/FooterHeures.vue'
+import MapComponent from './components/MapComponent.vue' 
+
 
 export default {
   name: 'App',
   components: {
     ImageWithText,
     HeaderWithArrow,
+    MapComponent,
     FooterHeures
 
   }
