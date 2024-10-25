@@ -1,7 +1,9 @@
 <template>
     <div class="section full-screen">
-        <h1 class="title">Expo</h1>
-        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey posé, Cathy Lebougre, Leocadie Prugne, Julien Foulon et Leo Vincent </h2>
+        <h1 class="title" @click="goToNewPage">Expo</h1>
+        <RouterLink :to="{name: 'newpage'}">Go to new page</RouterLink>
+        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Leocadie Prugne, Julien Foulon et Leo
+            Vincent </h2>
         <p class="header-text">
             Nous vous invitons à contempler ces images avec un regard curieux et émerveillé, à ressentir l'atmosphère
             mystique qu'elles dégagent et à réfléchir à leur signification dans le contexte historique et culturel du
@@ -35,6 +37,9 @@ export default {
         }
     },
     methods: {
+        goToNewPage() {
+            this.$router.push({ name: 'NewPage' });
+        },
         scrollToNextSection() {
             const nextSection = this.$el.nextElementSibling;
             if (nextSection) {
@@ -108,6 +113,7 @@ export default {
     .section {
         margin: 20px;
     }
+
     .title {
         font-size: 3rem;
     }
@@ -124,7 +130,7 @@ export default {
         font-size: 1.5rem;
     }
 
-    
+
 }
 
 @media screen and (max-width: 480px) {
@@ -132,6 +138,7 @@ export default {
     .section {
         margin: 20px;
     }
+
     .title {
         font-size: 2rem;
     }

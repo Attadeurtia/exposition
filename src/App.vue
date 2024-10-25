@@ -5,13 +5,14 @@
   <MapComponent />
   <ImageWithText />
   <FooterHeures />
+  <RouterView/>
 </template>
 
 <script>
 import ImageWithText from './components/GalerieDeDOeuvres.vue'
 import HeaderWithArrow from './components/HeaderWithArrow.vue'
 import FooterHeures from './components/FooterHeures.vue'
-import MapComponent from './components/MapComponent.vue' 
+import MapComponent from './components/MapComponent.vue'
 
 
 export default {
@@ -21,7 +22,6 @@ export default {
     HeaderWithArrow,
     MapComponent,
     FooterHeures
-
   }
 }
 </script>
