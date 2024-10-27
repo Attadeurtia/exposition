@@ -4,6 +4,7 @@
   <HeaderWithArrow />
   <MapComponent />
   <ImageWithText />
+  <DuchessesCard />
   <FooterHeures />
   <RouterLink :to="{name: 'newpage'}">Go to new page</RouterLink>
 
@@ -15,6 +16,8 @@ import ImageWithText from './GalerieDeDOeuvres.vue'
 import HeaderWithArrow from './HeaderWithArrow.vue'
 import FooterHeures from './FooterHeures.vue'
 import MapComponent from './MapComponent.vue'
+import DuchessesCard from './DuchessesCard.vue';
+
 
 
 export default {
@@ -23,7 +26,8 @@ export default {
     ImageWithText,
     HeaderWithArrow,
     MapComponent,
-    FooterHeures
+    FooterHeures,
+    DuchessesCard
   }
 }
 </script>
