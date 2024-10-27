@@ -1,7 +1,13 @@
 import App from './App.vue'
 import HomePage from './components/HomePage.vue';
 import NewPage from './components/NewPage.vue'
+
 import AnneDeBretagne from './components/Duchesses/AnneDeBretagne.vue';
+import MargueriteDeBretagne from './components/Duchesses/MargueriteDeBretagne.vue';
+import FrançoisedAmboise from './components/Duchesses/FrançoisedAmboise.vue';
+import JeanneDeFlandres from './components/Duchesses/JeanneDeFlandres.vue';
+import JeanneDePenthievre from './components/Duchesses/JeanneDePenthievre.vue';
+
 
 
 export const routes = [
@@ -9,6 +15,11 @@ export const routes = [
     {path: '/homepage', component: HomePage, name: 'homepage'},
     {path: '/newpage', component: NewPage, name: 'newpage'},
     { path: '/anne-de-bretagne', component: AnneDeBretagne, name: 'anne-de-bretagne' },
+    { path: '/Marguerite-de-Bretagne', component: MargueriteDeBretagne, name: 'Marguerite-de-Bretagne' },
+    { path: '/Françoise-d-Amboise', component: FrançoisedAmboise, name: 'Françoise-d-Amboise' },
+    { path: '/Jeanne-de-Flandrese', component: JeanneDeFlandres, name: 'Jeanne-de-Flandres' },
+    { path: '/Jeanne-de-Penthièvre', component: JeanneDePenthievre, name: 'Jeanne-de-Penthièvre' },
+
 
     //{path: "/:pathMatch(.*)*", redirect: '/'},
     

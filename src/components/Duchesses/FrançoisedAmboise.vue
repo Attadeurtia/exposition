@@ -1,8 +1,6 @@
 <template>
-  <h1>Anne de Bretagne</h1>
+  <h1>Françoise d’Amboise</h1>
   <p>Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
-  <MapComponent />
-
   <div class="container">
     <div class="item" v-for="(image, index) in images" :key="index">
       <img :src="image.src" :alt="image.alt">
@@ -13,11 +11,9 @@
 
 <script>
 import MarkdownIt from 'markdown-it';
-import MapComponent from '../MapComponent.vue'
 
 export default {
-  name: 'AnneDeBretagne',
-  components : MapComponent,
+  name: 'FrançoisedAmboise',
   data() {
     return {
       images: [
