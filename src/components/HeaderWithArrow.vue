@@ -1,7 +1,6 @@
 <template>
     <div class="section full-screen">
         <h1 class="title" @click="goToNewPage">Expo</h1>
-        <RouterLink :to="{name: 'newpage'}">Go to new page</RouterLink>
         <h2 class="subtitle">Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Leocadie Prugne, Julien Foulon et Leo
             Vincent </h2>
         <p class="header-text">
@@ -38,7 +37,7 @@ export default {
     },
     methods: {
         goToNewPage() {
-            this.$router.push({ name: 'NewPage' });
+            this.$router.push({ name: 'newpage' });
         },
         scrollToNextSection() {
             const nextSection = this.$el.nextElementSibling;

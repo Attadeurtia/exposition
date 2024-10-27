@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../components/FooterHeures.vue'; // Assurez-vous que ce fichier existe
+import HomePage from '../components/HomePage.vue'; // Assurez-vous que ce fichier existe
 import NewPage from '../components/NewPage.vue'; // Importez le composant NewPage
 
 const routes = [
     {
-        path: '/',
-        name: 'Home',
-        component: Home
+        path: '/HomePage',
+        name: 'HomePage',
+        component: HomePage
     },
     {
         path: '/new-page',
