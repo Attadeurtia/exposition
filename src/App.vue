@@ -2,7 +2,7 @@
   <div id="app">
   </div>
   
-  <!--<RouterLink :to="{name: 'homepage'}" class="enter-link">Entrez dans l'expo</RouterLink>-->
+  <RouterLink :to="{name: 'homepage'}" >Entrez dans l'expo</RouterLink>-
 
 
   <RouterView/>
