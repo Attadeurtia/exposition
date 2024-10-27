@@ -7,7 +7,6 @@
   <FooterHeures />
   <RouterLink :to="{name: 'newpage'}">Go to new page</RouterLink>
 
-  <RouterView/>
 </template>
 
 <script>

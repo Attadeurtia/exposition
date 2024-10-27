@@ -45,7 +45,7 @@ export default {
   },
   data() {
     return {
-      center: [48.0153306, 0.2121188],
+      center: [47.41322, -1.219482],
       zoom: 10,
       // Array of points with coordinates and names
       points: [

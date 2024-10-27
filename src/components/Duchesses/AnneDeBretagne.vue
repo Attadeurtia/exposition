@@ -75,6 +75,10 @@ export default {
   display: block;
 }
 
+h1 {
+  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif
+}
+
 .texte {
   margin-left: 20px;
   font-size: 1rem;

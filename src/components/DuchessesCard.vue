@@ -3,7 +3,7 @@
     <h1>Duchesses de Bretagne</h1>
     <div class="card-container">
       <router-link v-for="duchesse in duchesses" :key="duchesse.name" :to="duchesse.route" class="card">
-        <img :src="duchesse.image" alt="Portrait de {{ duchesse.name }}" />
+        <!-- <img :src="duchesse.image" alt="Portrait de {{ duchesse.name }}" />-->
         <h2>{{ duchesse.name }}</h2>
         <p>{{ duchesse.description }}</p>
       </router-link>
@@ -25,6 +25,12 @@ export default {
           route: '/anne-de-bretagne', // Ajoutez la route ici
         },
         {
+          name: 'Jeanne de Penthièvre',
+          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Catherine_de_M%C3%A9dicis.jpg/800px-Catherine_de_M%C3%A9dicis.jpg',
+          description: 'Léocadie',
+          route: '/Jeanne-de-Penthièvre', // Ajoutez la route ici
+        },
+        {
           name: 'Françoise d’Amboise',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Catherine_de_M%C3%A9dicis.jpg/800px-Catherine_de_M%C3%A9dicis.jpg',
           description: 'Julien',
@@ -42,12 +48,7 @@ export default {
           description: 'Cathy',
           route: '/Jeanne-de-Flandres', // Ajoutez la route ici
         },
-        {
-          name: 'Jeanne de Penthièvre',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Catherine_de_M%C3%A9dicis.jpg/800px-Catherine_de_M%C3%A9dicis.jpg',
-          description: 'Léocadie',
-          route: '/Jeanne-de-Penthièvre', // Ajoutez la route ici
-        },
+
         // Ajoutez les autres duchesses ici
       ],
     };

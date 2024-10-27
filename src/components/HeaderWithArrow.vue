@@ -1,17 +1,27 @@
 <template>
     <div class="section full-screen">
-        <h1 class="title" @click="goToNewPage">Expo</h1>
-        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Leocadie Prugne, Julien Foulon et Leo
+        <h1 class="title" @click="goToNewPage">Exposition : les Duchesses de Bretagne</h1>
+        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Léocadie Prugne, Julien Foulon et Leo
             Vincent </h2>
         <p class="header-text">
-            Nous vous invitons à contempler ces images avec un regard curieux et émerveillé, à ressentir l'atmosphère
-            mystique qu'elles dégagent et à réfléchir à leur signification dans le contexte historique et culturel du
-            Moyen Âge. Que vous soyez passionné d'art, d'histoire ou simplement curieux, cette exposition est une
-            occasion unique de redécouvrir un patrimoine souvent méconnu.<br><br>
-            Laissez-vous transporter par la magie des vitraux et la lumière qu'ils diffusent, et rejoignez-nous pour
-            célébrer l'héritage artistique de nos ancêtres.
+            Bienvenue dans notre exposition virtuelle dédiée aux duchesses de Bretagne, figures emblématiques de
+            l'histoire et de la culture bretonnes. À travers les siècles, ces femmes puissantes ont non seulement
+            façonné le destin de leur région, mais ont également inspiré de nombreux artistes, qui ont immortalisé leur
+            image et leur héritage dans des œuvres iconographiques variées.
             <br><br>
-            Venez explorer, admirer et vous émerveiller devant ces Lumières du Moyen Âge !
+
+            Cette exposition vous invite à explorer la richesse des représentations artistiques des duchesses de
+            Bretagne, allant des portraits royaux aux illustrations médiévales, en passant par les sculptures et les
+            gravures. Chaque œuvre témoigne de l'importance de ces femmes dans la société bretonne et française, tout en
+            reflétant les styles artistiques de leur époque.
+            <br><br>
+            En parcourant cette exposition, vous découvrirez non seulement les histoires fascinantes de ces duchesses,
+            mais aussi l'évolution de leur représentation à travers l'art. Nous espérons que cette immersion dans le
+            patrimoine visuel breton vous inspirera et vous permettra d'apprécier davantage l'héritage culturel de cette
+            région unique.
+
+            <br><br>
+            Nous vous souhaitons une agréable visite !
         </p>
         <div class="arrow-down" @click="scrollToNextSection">&#x2193;</div>
 
@@ -61,7 +71,7 @@ export default {
 }
 
 .title {
-    font-size: 5rem;
+    font-size: 3.3rem;
     font-family: 'Inknut Antiqua', serif;
     font-weight: bold;
 }
