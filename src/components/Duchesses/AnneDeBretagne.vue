@@ -10,6 +10,11 @@
       <img :src="image.src" :alt="image.alt">
       <!-- rect: Rectangle -->
       <div class="shape rect rectangle-32bfb2516c1d">
+        <div class="shape circle ellipse-haut-droite"></div>
+        <div class="shape circle ellipse-haut-gauche"></div>
+        <div class="shape circle ellipse-bas-droite"></div>
+        <div class="shape circle ellipse-bas-gauche"></div>
+
         <div class="texte" v-html="image.text"></div>
       </div>
     </div>
@@ -70,10 +75,16 @@ export default {
 .rectangle-32bfb2516c1d {
   margin: 60px;
 
-  background: #282829;
+  background: #D2D5DD;
   border-radius: 0px;
   box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.2);
-  padding: 10px 50px 20px;}
+  padding: 40px 60px 40px;
+  position: relative;
+
+
+}
+
+
 
 
 
@@ -105,10 +116,11 @@ export default {
   font-size: 2rem;
   font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
 
+
 }
 
 h1 {
-  color: rgb(153, 153, 204);
+  color: #999AC6;
   font-size: 2 rem;
   font-weight: bold;
 
@@ -121,7 +133,7 @@ h2 {
   font-style: italic;
   /* Met le texte en italique */
 
-  color: rgb(153, 153, 204);
+  color: #999AC6;
 }
 
 h3 {
@@ -130,11 +142,25 @@ h3 {
 
 }
 
+p {
+  margin-left: 20px;
+  font-size: 1rem;
+  align-self: top;
+  font-family: "Ibarra Real Nova", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .texte {
   margin-left: 20px;
   font-size: 1rem;
   align-self: top;
-  font-family: 'Ibarra Real Nova', 'Halyard Micro dollar', Arial, Helvetica, sans-serif;
+  font-family: "Ibarra Real Nova", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 @media (max-width: 768px) {
@@ -161,5 +187,49 @@ h3 {
   .texte {
     font-size: 0.75rem;
   }
+}
+
+/* Ellipse */
+.ellipse-haut-droite {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Ellipse */
+.ellipse-haut-gauche {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Ellipse */
+.ellipse-bas-droite {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* Ellipse */
+.ellipse-bas-gauche {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 </style>
