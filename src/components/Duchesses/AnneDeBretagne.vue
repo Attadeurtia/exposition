@@ -134,6 +134,7 @@ h3 {
   margin-left: 20px;
   font-size: 1rem;
   align-self: top;
+  font-family: 'Ibarra Real Nova', 'Halyard Micro dollar', Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 768px) {
