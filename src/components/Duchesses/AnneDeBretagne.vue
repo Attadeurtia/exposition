@@ -1,23 +1,38 @@
 <template>
-  <h1>Anne de Bretagne</h1>
+  <h1 class="titre" >Anne de Bretagne</h1>
   <p>Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
   <MapComponent />
+  <CartelPenpot />
+
 
   <div class="container">
     <div class="item" v-for="(image, index) in images" :key="index">
       <img :src="image.src" :alt="image.alt">
-      <div class="texte" v-html="image.text"></div>
+      <!-- rect: Rectangle -->
+      <div class="shape rect rectangle-32bfb2516c1d">
+        <div class="texte" v-html="image.text"></div>
+      </div>
     </div>
+
   </div>
+
+
+
 </template>
 
 <script>
 import MarkdownIt from 'markdown-it';
 import MapComponent from '../MapComponent.vue'
 
+import CartelPenpot from './CartelPenpot.vue';
+
 export default {
   name: 'AnneDeBretagne',
-  components : MapComponent,
+  components: {
+    MapComponent,
+    CartelPenpot
+  },
+
   data() {
     return {
       images: [
@@ -50,7 +65,20 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
+
+
+/* Rectangle */
+.rectangle-32bfb2516c1d {
+  margin: 60px;
+  
+  background: #282829;
+  border-radius: 0px;
+  box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -75,8 +103,27 @@ export default {
   display: block;
 }
 
+.titre{
+  font-size: 2rem;
+}
+
 h1 {
-  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif
+  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
+  color: orange;
+  font-size: 1.2rem;
+
+}
+
+h2{
+  color: green;
+  font-size: 1.3rem;
+}
+
+h3{
+  color: green;
+  font-size: 1.3rem;
+  font-weight: bold; /* ou vous pouvez utiliser un nombre comme 700 */
+
 }
 
 .texte {
