@@ -1,5 +1,5 @@
 <template>
-  <h1 class="titre" >Anne de Bretagne</h1>
+  <h1 class="titre">Anne de Bretagne</h1>
   <p>Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
   <MapComponent />
   <CartelPenpot />
@@ -66,16 +66,14 @@ export default {
 
 
 <style>
-
-
 /* Rectangle */
 .rectangle-32bfb2516c1d {
   margin: 60px;
-  
+
   background: #282829;
   border-radius: 0px;
-  box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.2);
-}
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px 50px 20px;}
 
 
 
@@ -103,26 +101,32 @@ export default {
   display: block;
 }
 
-.titre{
+.titre {
   font-size: 2rem;
+  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
+
 }
 
 h1 {
-  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
-  color: orange;
-  font-size: 1.2rem;
+  color: rgb(153, 153, 204);
+  font-size: 2 rem;
+  font-weight: bold;
+
 
 }
 
-h2{
-  color: green;
+h2 {
+
   font-size: 1.3rem;
+  font-style: italic;
+  /* Met le texte en italique */
+
+  color: rgb(153, 153, 204);
 }
 
-h3{
-  color: green;
-  font-size: 1.3rem;
-  font-weight: bold; /* ou vous pouvez utiliser un nombre comme 700 */
+h3 {
+  font-weight: bold;
+  /* ou vous pouvez utiliser un nombre comme 700 */
 
 }
 
