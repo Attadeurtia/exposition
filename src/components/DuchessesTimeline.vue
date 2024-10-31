@@ -9,6 +9,7 @@
             <div class="card-anne-de-bretagne">
                 <router-link to="/anne-de-bretagne" class="card">
                     <h2>Anne de Bretagne</h2>
+                    <p>1488-1514</p>
                     <p>Nathan</p>
 
                 </router-link>
@@ -16,6 +17,7 @@
             <div class="card-Jeanne-de-Penthièvre">
                 <router-link to="/Jeanne-de-Penthièvre" class="card">
                     <h2>Jeanne de Penthièvre</h2>
+                    <p>1341-1365</p>
                     <p>Léocadie</p>
 
                 </router-link>

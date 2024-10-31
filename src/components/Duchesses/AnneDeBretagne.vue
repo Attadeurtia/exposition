@@ -70,7 +70,7 @@ export default {
 </script>
 
 
-<style>
+<style >
 /* Rectangle */
 .rectangle-32bfb2516c1d {
   margin: 60px;
