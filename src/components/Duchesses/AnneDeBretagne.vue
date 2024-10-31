@@ -75,7 +75,7 @@ export default {
 .rectangle-32bfb2516c1d {
   margin: 60px;
 
-  background: #D2D5DD;
+  background: #EAEBED;
   border-radius: 0px;
   box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.2);
   padding: 40px 60px 40px;
@@ -120,7 +120,7 @@ export default {
 }
 
 h1 {
-  color: #999AC6;
+  color: #01A7C2;
   font-size: 2 rem;
   font-weight: bold;
 
@@ -133,7 +133,7 @@ h2 {
   font-style: italic;
   /* Met le texte en italique */
 
-  color: #999AC6;
+  color: #01A7C2;
 }
 
 h3 {
@@ -143,7 +143,6 @@ h3 {
 }
 
 p {
-  margin-left: 20px;
   font-size: 1rem;
   align-self: top;
   font-family: "Ibarra Real Nova", serif;
@@ -174,6 +173,12 @@ p {
     margin-left: 0;
     margin-top: 10px;
     font-size: 0.875rem;
+  }
+
+  .rectangle-32bfb2516c1d {
+    margin: 25px 10px;
+    padding: 45px 20px 45px;
+
   }
 }
 

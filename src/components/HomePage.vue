@@ -3,9 +3,9 @@
   </div>
   <HeaderWithArrow />
   <MapComponent />
-  <DuchessesCard />
+  <DuchessesTimeline />
   <FooterHeures />
-  <RouterLink :to="{name: 'newpage'}">Go to new page</RouterLink>
+  <RouterLink :to="{ name: 'newpage' }">Go to new page</RouterLink>
 
 </template>
 
@@ -13,7 +13,7 @@
 import HeaderWithArrow from './HeaderWithArrow.vue'
 import FooterHeures from './FooterHeures.vue'
 import MapComponent from './MapComponent.vue'
-import DuchessesCard from './DuchessesCard.vue';
+import DuchessesTimeline from './DuchessesTimeline.vue';
 
 
 
@@ -23,7 +23,7 @@ export default {
     HeaderWithArrow,
     MapComponent,
     FooterHeures,
-    DuchessesCard
+    DuchessesTimeline
   }
 }
 </script>
@@ -34,6 +34,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #c3bec8;
+  color: #A3BAC3;
 }
 </style>
