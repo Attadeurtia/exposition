@@ -1,9 +1,11 @@
-# Titre : la mort de A. de Bretagne
+#  Maître de Giac, Maître de Rohan et collaborateurs.
 
-## Artiste : Claire Dubois
+*vers 1417 ou 1431*
 
-### Date : 2021
 
-**Technique : Photographie numérique**
+##  Heures dites d'Isabelle Stuart
 
-**Description :** Cette œuvre captivante explore la relation entre la lumière et l'architecture. À travers un jeu subtil de reflets et de transparences, Claire Dubois capture l'essence d'un bâtiment moderne, transformant son environnement en une toile vivante. Les nuances de couleurs et les formes géométriques se mêlent harmonieusement, invitant le spectateur à contempler la beauté éphémère des instants fugaces. En s'éloignant des conventions, l'artiste nous pousse à réévaluer notre perception de l'espace et de la lumière dans notre quotidien.
+
+### Enluminures sur parchemin
+
+Le livre d'heures dit d'Isabelle Stuart est un livre d'heures médiéval vers 1417 ou 1431 sans doute par l'atelier du maître de Rohan pour Yolande d'Aragon. Il est actuellement conservé au Fitzwilliam Museum de Cambridge. Propriété de la duchesse de Bretagne, Isabelle d'Écosse appelée Isabelle Stuart, elle y a fait ajouter ses armes et a ainsi donné le nom d'usage de ce manuscrit.
