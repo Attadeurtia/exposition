@@ -71,9 +71,7 @@ export default {
 </script>
 
 
-<style >
-
-
+<style>
 /* Rectangle */
 .rectangle-32bfb2516c1d {
   margin: 60px;
@@ -216,8 +214,8 @@ p {
 
 .ellipse-haut-droite {
 
-top: 20px;
-left: 20px;
+  top: 20px;
+  left: 20px;
 }
 
 .ellipse-bas-droite {
