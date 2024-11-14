@@ -2,7 +2,6 @@
   <h1 class="titre">Anne de Bretagne</h1>
   <p>Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
   <MapComponent />
-  <CartelPenpot />
 
 
   <div class="container">
@@ -29,24 +28,26 @@
 import MarkdownIt from 'markdown-it';
 import MapComponent from '../MapComponent.vue'
 
-import CartelPenpot from './CartelPenpot.vue';
 
 export default {
   name: 'AnneDeBretagne',
   components: {
-    MapComponent,
-    CartelPenpot
+    MapComponent
   },
 
   data() {
     return {
-      images: [
-        { id: 1, src: require('@/assets/images/image1.jpeg'), title: 'Image 1', text: '' },
-        { id: 2, src: require('@/assets/images/image2.jpeg'), title: 'Image 2', text: '' },
-        { id: 3, src: require('@/assets/images/image3.jpeg'), title: 'Image 3', text: '' },
-        { id: 4, src: require('@/assets/images/image4.jpeg'), title: 'Image 4', text: '' },
-      ],
+      images: []
     };
+  },
+  async created() {
+    const context = require.context('@/assets/images/AnneDeBretagne', false, /\.(jpeg|jpg|png)$/);
+    this.images = context.keys().map((key, index) => ({
+      id: index + 1,
+      src: context(key),
+      title: `Image ${index + 1}`,
+      text: ''
+    }));
   },
   mounted() {
     this.loadMarkdownTexts();
@@ -57,7 +58,7 @@ export default {
       for (let image of this.images) {
         try {
           // Charger le fichier Markdown correspondant à l'image
-          const response = await import(`@/assets/markdown/text${image.id}.md`);
+          const response = await import(`@/assets/markdown/AnneDeBretagne/text${image.id}.md`);
           image.text = md.render(response.default);
         } catch (error) {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
@@ -71,6 +72,8 @@ export default {
 
 
 <style >
+
+
 /* Rectangle */
 .rectangle-32bfb2516c1d {
   margin: 60px;
@@ -109,6 +112,7 @@ export default {
 
 .item img {
   max-height: 30rem;
+  height: auto;
   display: block;
 }
 
@@ -195,45 +199,33 @@ p {
 }
 
 /* Ellipse */
-.ellipse-haut-droite {
+.shape.circle {
   width: 30px;
   height: 30px;
-  background-color: black;
   border-radius: 50%;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  background-image: url('@/assets/images/texture/bouton_doré.jpg');
+  background-size: 150%;
+  background-position: center;
 }
 
-/* Ellipse */
 .ellipse-haut-gauche {
-  width: 30px;
-  height: 30px;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
   top: 20px;
   right: 20px;
 }
 
-/* Ellipse */
+.ellipse-haut-droite {
+
+top: 20px;
+left: 20px;
+}
+
 .ellipse-bas-droite {
-  width: 30px;
-  height: 30px;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
   bottom: 20px;
   left: 20px;
 }
 
-/* Ellipse */
 .ellipse-bas-gauche {
-  width: 30px;
-  height: 30px;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
   bottom: 20px;
   right: 20px;
 }

@@ -1,4 +1,4 @@
-**Titre : Médaillon**
+**Titre : Reflets de Lumière**
 
 **Artiste : Claire Dubois**
 

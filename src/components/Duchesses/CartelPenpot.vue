@@ -428,7 +428,7 @@ Estampe numérotée 23/50 */
   top: 892px;
   width: 100px;
   height: 100px;
-  background: #000000;
+  background-image: url('@/assets/images/texture/bouton_doré.jpg');
   border-radius: 50%;
 }
 
@@ -439,7 +439,7 @@ Estampe numérotée 23/50 */
   top: 892px;
   width: 100px;
   height: 100px;
-  background: #000000;
+  background: #b82222;
   border-radius: 50%;
 }
 
