@@ -14,10 +14,10 @@ export const routes = [
     {path: '/', component: App},
     {path: '/homepage', component: HomePage, name: 'homepage'},
     {path: '/newpage', component: NewPage, name: 'newpage'},
-    { path: '/anne-de-bretagne', component: AnneDeBretagne, name: 'anne-de-bretagne' },
+    { path: '/Anne-de-Bretagne', component: AnneDeBretagne, name: 'Anne-de-Bretagne' },
     { path: '/Marguerite-de-Bretagne', component: MargueriteDeBretagne, name: 'Marguerite-de-Bretagne' },
     { path: '/Françoise-d-Amboise', component: FrançoisedAmboise, name: 'Françoise-d-Amboise' },
-    { path: '/Jeanne-de-Flandrese', component: JeanneDeFlandres, name: 'Jeanne-de-Flandres' },
+    { path: '/Jeanne-de-Flandres', component: JeanneDeFlandres, name: 'Jeanne-de-Flandres' },
     { path: '/Jeanne-de-Penthièvre', component: JeanneDePenthievre, name: 'Jeanne-de-Penthièvre' },
 
 

@@ -27,10 +27,12 @@
 <script>
 import MarkdownIt from 'markdown-it';
 import MapComponent from '../MapComponent.vue'
+import '@/assets/css/duchesses.css';
+
 
 
 export default {
-  name: 'AnneDeBretagne',
+  name: 'JeanneDeFlandres',
   components: {
     MapComponent
   },
@@ -41,7 +43,7 @@ export default {
     };
   },
   async created() {
-    const context = require.context('@/assets/images/AnneDeBretagne', false, /\.(jpeg|jpg|png)$/);
+    const context = require.context('@/assets/images/JeanneDeFlandres', false, /\.(jpeg|jpg|png)$/);
     this.images = context.keys().map((key, index) => ({
       id: index + 1,
       src: context(key),
@@ -58,7 +60,7 @@ export default {
       for (let image of this.images) {
         try {
           // Charger le fichier Markdown correspondant à l'image
-          const response = await import(`@/assets/markdown/AnneDeBretagne/text${image.id}.md`);
+          const response = await import(`@/assets/markdown/JeanneDeFlandres/text${image.id}.md`);
           image.text = md.render(response.default);
         } catch (error) {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
@@ -69,162 +71,3 @@ export default {
   },
 }
 </script>
-
-
-<style>
-/* Rectangle */
-.rectangle-32bfb2516c1d {
-  margin: 60px;
-
-  background: #EAEBED;
-  border-radius: 0px;
-  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.2);
-  padding: 40px 60px 40px;
-  position: relative;
-
-
-}
-
-
-
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin: 20px;
-  gap: 20px;
-  padding: 20px;
-}
-
-.item {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  margin: 50px;
-  margin-top: 40px;
-  text-align: left;
-
-}
-
-.item img {
-  max-height: 30rem;
-  height: auto;
-  display: block;
-}
-
-.titre {
-  font-size: 2rem;
-  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
-
-
-}
-
-h1 {
-  color: #01A7C2;
-  font-size: 2 rem;
-  font-weight: bold;
-
-
-}
-
-h2 {
-
-  font-size: 1.3rem;
-  font-style: italic;
-  /* Met le texte en italique */
-
-  color: #01A7C2;
-}
-
-h3 {
-  font-weight: bold;
-  /* ou vous pouvez utiliser un nombre comme 700 */
-
-}
-
-p {
-  font-size: 1rem;
-  align-self: top;
-  font-family: "Ibarra Real Nova", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.texte {
-  margin-left: 20px;
-  font-size: 1rem;
-  align-self: top;
-  font-family: "Ibarra Real Nova", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-
-}
-
-@media (max-width: 768px) {
-  .item {
-    flex-direction: column;
-    margin: 0px;
-
-  }
-
-  .texte {
-    margin-left: 0;
-    margin-top: 10px;
-    font-size: 0.875rem;
-  }
-
-  .rectangle-32bfb2516c1d {
-    margin: 25px 10px;
-    padding: 45px 20px 45px;
-
-  }
-}
-
-@media (max-width: 480px) {
-  .item {
-    flex-direction: column;
-    margin: 0px;
-
-  }
-
-  .texte {
-    font-size: 0.75rem;
-  }
-}
-
-/* Ellipse */
-.shape.circle {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  position: absolute;
-  background-image: url('@/assets/images/texture/bouton_doré.jpg');
-  background-size: 150%;
-  background-position: center;
-}
-
-.ellipse-haut-gauche {
-  top: 20px;
-  right: 20px;
-}
-
-.ellipse-haut-droite {
-
-  top: 20px;
-  left: 20px;
-}
-
-.ellipse-bas-droite {
-  bottom: 20px;
-  left: 20px;
-}
-
-.ellipse-bas-gauche {
-  bottom: 20px;
-  right: 20px;
-}
-</style>

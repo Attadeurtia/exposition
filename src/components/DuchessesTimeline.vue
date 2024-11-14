@@ -1,73 +1,42 @@
 <template>
-
-    <!-- group: Group -->
     <div class="group group-2c511b0c6507">
-        <!-- rect: Rectangle -->
         <div class="duchesses-container">
-
-
-            <div class="card-anne-de-bretagne">
-                <router-link to="/anne-de-bretagne" class="card">
-                    <h2>Anne de Bretagne</h2>
-                    <p>1488-1514</p>
-                    <p>Nathan</p>
-
+            <div v-for="duchess in duchesses" :key="duchess.name" :class="'card-' + duchess.id">
+                <router-link :to="'/' + duchess.id" class="card">
+                    <h2>{{ duchess.name }}</h2>
+                    <p v-if="duchess.period">{{ duchess.period }}</p>
+                    <p>{{ duchess.author }}</p>
                 </router-link>
             </div>
-            <div class="card-Jeanne-de-Penthièvre">
-                <router-link to="/Jeanne-de-Penthièvre" class="card">
-                    <h2>Jeanne de Penthièvre</h2>
-                    <p>1341-1365</p>
-                    <p>Léocadie</p>
-
-                </router-link>
-            </div>
-
-
-            <div class="card-Françoise-d-Amboise">
-                <router-link to="/Françoise-d-Amboise" class="card">
-                    <h2>Françoise d’Amboise</h2>
-                    <p>Julien</p>
-
-                </router-link>
-            </div>
-
-            <div class="card-Marguerite-de-Bretagne">
-                <router-link to="/Marguerite-de-Bretagne" class="card">
-                    <h2>Marguerite de Bretagne</h2>
-                    <p>Geoffrey</p>
-
-                </router-link>
-            </div>
-
-            <div class="card-Jeanne-de-Flandres">
-                <router-link to="/Jeanne-de-Flandres" class="card">
-                    <h2>Jeanne de Flandres</h2>
-                    <p>Cathy</p>
-
-                </router-link>
-            </div>
-
-
         </div>
-        <div class="shape rect rectangle-2c43b97b4548">
-        </div>
-        <!-- rect: Rectangle -->
-        <div class="shape rect rectangle-2c4f8b69fbc6">
-        </div>
-        <!-- rect: Rectangle -->
-        <div class="shape rect rectangle-2c4f8c4fba3f">
+        
+        <div v-for="(rectangle, index) in rectangles" 
+             :key="index" 
+             :class="['shape', 'rect', `rectangle-${rectangle}`]">
         </div>
     </div>
-
 </template>
 
 <script>
+
 export default {
     name: 'DucessesTimeline',
-
+    data() {
+        return {
+            duchesses: [
+                { id: 'Anne-de-Bretagne', name: 'Anne de Bretagne', period: '1488-1514', author: 'Nathan' },
+                { id: 'Jeanne-de-Penthièvre', name: 'Jeanne de Penthièvre', period: '1341-1365', author: 'Léocadie' },
+                { id: 'Françoise-d-Amboise', name: 'Françoise d\'Amboise', author: 'Julien' },
+                { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne', author: 'Geoffrey' },
+                { id: 'Jeanne-de-Flandres', name: 'Jeanne de Flandres', author: 'Cathy' }
+            ],
+            rectangles: ['2c43b97b4548', '2c4f8b69fbc6', '2c4f8c4fba3f']
+        }
+    }
 };
 </script>
+
+
 
 
 <style scoped>
@@ -76,7 +45,7 @@ export default {
     text-decoration: none;
 }
 
-.card-anne-de-bretagne {
+.card-Anne-de-Bretagne {
     text-align: center;
     padding: 20px;
 
