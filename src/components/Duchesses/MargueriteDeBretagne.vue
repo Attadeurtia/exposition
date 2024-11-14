@@ -1,6 +1,6 @@
 <template>
   <h1>Marguerite de Bretagne</h1>
-  <p>Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
+  <p>Marguerite de Bretagne est une princesse et par son mariage duchesse de Bretagne née en 1443 et morte le 25 septembre 1469. Elle est la fille aînée du duc François Ier de Bretagne et de sa seconde épouse, Isabelle d'Écosse, fille du roi Jacques Ier d'Écosse.</p>
   <MapComponent />
 
 
