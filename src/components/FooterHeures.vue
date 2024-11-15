@@ -1,21 +1,20 @@
 ```vue
 <template>
   <footer class="footer">
-    <div class="container">
-      <div class="hours-and-link">
-        <div class="hours">
-          <h2>Heures d'ouverture</h2>
+
+          <h2>À propos</h2>
           <ul>
-            <li>Lundi - Vendredi: 9h00 - 18h00</li>
-            <li>Samedi: 10h00 - 17h00</li>
-            <li>Dimanche: Fermé</li>
+            <li><router-link to="/consigne">Consigne</router-link></li>
+            <li>
+              <div class="site-link">
+                <a href="https://attadeurtia.github.io/blog/" target="_blank" rel="noopener noreferrer">Technicien</a>
+              </div>
+            </li>
+            <li><a href="https://github.com/Attadeurtia/exposition" target="_blank" rel="noopener noreferrer">Code
+                source>
+              </a></li>
           </ul>
-        </div>
-        <div class="site-link">
-          <a href="https://attadeurtia.github.io/blog/" target="_blank">Auteur</a>
-        </div>
-      </div>
-    </div>
+
   </footer>
 </template>
 
@@ -31,20 +30,6 @@ export default {
   text-align: left;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hours-and-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hours {
-  flex: 1;
-}
 
 .site-link {
   margin-left: 20px;

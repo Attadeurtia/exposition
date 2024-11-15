@@ -7,6 +7,7 @@ import MargueriteDeBretagne from './components/Duchesses/MargueriteDeBretagne.vu
 import FrançoisedAmboise from './components/Duchesses/FrançoisedAmboise.vue';
 import JeanneDeFlandres from './components/Duchesses/JeanneDeFlandres.vue';
 import JeanneDePenthievre from './components/Duchesses/JeanneDePenthievre.vue';
+import Consigne from './components/ConsignePage.vue';
 
 
 
@@ -19,6 +20,12 @@ export const routes = [
     { path: '/Françoise-d-Amboise', component: FrançoisedAmboise, name: 'Françoise-d-Amboise' },
     { path: '/Jeanne-de-Flandres', component: JeanneDeFlandres, name: 'Jeanne-de-Flandres' },
     { path: '/Jeanne-de-Penthièvre', component: JeanneDePenthievre, name: 'Jeanne-de-Penthièvre' },
+
+    {
+        path: '/consigne',
+        name: 'Consigne',
+        component: Consigne
+      }
 
 
     //{path: "/:pathMatch(.*)*", redirect: '/'},

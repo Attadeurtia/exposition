@@ -1,5 +1,5 @@
 <template>
-  <h1 class="titre">Françoise d’Amboise</h1>
+  <h1 class="titre">Marguerite de Foix</h1>
   <p class="descriptif">Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
   <MapComponent />
 
