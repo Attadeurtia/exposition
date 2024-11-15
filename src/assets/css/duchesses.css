@@ -38,15 +38,13 @@
 .titre {
   font-size: 4rem;
   font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
+  margin-top: 80px;
 }
 
 h1 {
   color: #01A7C2;
   font-size: 3 rem;
   font-weight: bold;
-  margin-top: 80px;
-
-
 }
 
 h2 {
