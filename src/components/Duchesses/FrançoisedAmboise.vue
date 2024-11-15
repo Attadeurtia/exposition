@@ -1,6 +1,6 @@
 <template>
-  <h1>Françoise d’Amboise</h1>
-  <p>Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
+  <h1 class="titre">Françoise d’Amboise</h1>
+  <p class="descriptif">Duchesse de Bretagne et reine de France, elle a joué un rôle clé dans l'histoire de la Bretagne.</p>
   <MapComponent />
 
 
