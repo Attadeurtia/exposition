@@ -197,7 +197,7 @@ export default {
 /* Group */
 .group-2c511b0c6507 {
     position: sticky;
-    left: 49%;
+    left: 30%;
 
     width: 248px;
     height: 2240.5px;

@@ -28,7 +28,7 @@ export default {
 /* Group */
 .group-2c511b0c6507 {
     position: relative;
-    left: 50%;
+    left: 30%;
     top: 300px;
     width: 248px;
     height: 2240.5px;
