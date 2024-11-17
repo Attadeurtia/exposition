@@ -25,6 +25,12 @@ export default {
   background-color: #aab3bd;
   margin-top: 200px;
 }
+h2{ 
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c29961;
+
+}
 
 router-link,
 .site-link {

@@ -236,4 +236,8 @@ export default {
     background: #B1B2B5;
     border-radius: 12px;
 }
+
+h2 {
+    color: #01A7C2;
+}
 </style>

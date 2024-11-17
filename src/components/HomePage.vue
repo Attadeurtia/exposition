@@ -5,8 +5,6 @@
   <MapComponent />
   <DuchessesTimeline />
   <FooterHeures />
-  <RouterLink :to="{ name: 'newpage' }">Go to new page</RouterLink>
-
 </template>
 
 <script>
@@ -34,4 +32,5 @@ export default {
   text-align: center;
   color: #A3BAC3;
 }
+
 </style>
