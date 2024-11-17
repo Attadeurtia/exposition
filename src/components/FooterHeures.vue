@@ -1,19 +1,13 @@
 ```vue
 <template>
   <footer class="footer">
-
-          <h2>À propos</h2>
-          <ul>
-            <li><router-link to="/consigne">Consigne</router-link></li>
-            <li>
-              <div class="site-link">
-                <a href="https://attadeurtia.github.io/blog/" target="_blank" rel="noopener noreferrer">Technicien</a>
-              </div>
-            </li>
-            <li><a href="https://github.com/Attadeurtia/exposition" target="_blank" rel="noopener noreferrer">Code
-                source>
-              </a></li>
-          </ul>
+    <h2>À propos</h2>
+    <ul>
+      <li><router-link to="/consigne">Consigne</router-link></li>
+      <li><a href="https://attadeurtia.github.io/blog/" target="_blank" rel="noopener noreferrer">Technicien</a></li>
+      <li><a href="https://github.com/Attadeurtia/exposition" target="_blank" rel="noopener noreferrer">Code source</a>
+      </li>
+    </ul>
 
   </footer>
 </template>
@@ -29,31 +23,22 @@ export default {
   padding: 20px;
   text-align: left;
   background-color: #aab3bd;
+  margin-top: 200px;
 }
 
-
+router-link,
 .site-link {
   margin-left: 20px;
 }
 
-.site-link a {
+.site-link a,
+router-link-active {
   color: #007BFF;
   text-decoration: none;
 }
 
-.site-link a:hover {
+.site-link a:hover,
+.router-link-active:hover {
   text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .hours-and-link {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .site-link {
-    margin-left: 0;
-    margin-top: 20px;
-  }
 }
 </style>

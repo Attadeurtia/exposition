@@ -61,7 +61,7 @@ methods: {
     for (let image of this.images) {
       try {
         // Charger le fichier Markdown correspondant à l'image
-        const response = await import(`@/assets/markdown/FrançoisedAmboise/text${image.id}.md`);
+        const response = await import(`@/assets/markdown/FrançoisedAmboise/${image.id}.md`);
         image.text = md.render(response.default);
       } catch (error) {
         console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);

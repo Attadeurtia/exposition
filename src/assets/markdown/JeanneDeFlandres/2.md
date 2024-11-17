@@ -1,0 +1,9 @@
+# Jean Froissart
+
+## vers 1470-1475
+
+### Hommage à Jean de Montfort accompagné de Jeanne de Flandre, à Nantes 1341, après la mort de son demi-frère le duc Jean III de Bretagne
+
+#### Enluminure
+
+La miniature représente l’assemblée des États réunie à Nantes pour reconnaître Jean de Montfort comme duc de Bretagne, fin mai 1341. La scène se déroule probablement dans une salle du château. A gauche, en toile de fond, un dais est tendu d’un tissu rouge matelassé, avec les côtés et le dessus réalisés dans un draperie verte à galons d’or.

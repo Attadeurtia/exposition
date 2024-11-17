@@ -1,6 +1,9 @@
 <template>
   <h1 class="titre">Anne de Bretagne</h1>
-  <p class="descriptif">Anne de Bretagne, née le 25 janvier 1477 à Nantes et morte le 9 janvier 1514 à Blois, fille du duc de Bretagne François II, devient duchesse de Bretagne à la mort de son père, puis reine de France une première fois en 1491 après son mariage avec le roi de France Charles VIII, et une deuxième fois en 1499 après un second mariage avec le roi Louis XII.</p>
+  <p class="descriptif">Anne de Bretagne, née le 25 janvier 1477 à Nantes et morte le 9 janvier 1514 à Blois, fille du
+    duc de Bretagne François II, devient duchesse de Bretagne à la mort de son père, puis reine de France une première
+    fois en 1491 après son mariage avec le roi de France Charles VIII, et une deuxième fois en 1499 après un second
+    mariage avec le roi Louis XII.</p>
   <MapComponent />
 
 
@@ -55,7 +58,7 @@ export default {
       for (let image of this.images) {
         try {
           // Charger le fichier Markdown correspondant à l'image
-          const response = await import(`@/assets/markdown/AnneDeBretagne/text${image.id}.md`);
+          const response = await import(`@/assets/markdown/AnneDeBretagne/${image.id}.md`);
           image.text = md.render(response.default);
         } catch (error) {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
