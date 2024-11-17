@@ -16,5 +16,6 @@ export const routes = [
     { path: '/Francoise-d-Amboise', component: FrancoiseDAmboise, name: 'Francoise-d-Amboise' },
     { path: '/Jeanne-de-Flandres', component: JeanneDeFlandres, name: 'Jeanne-de-Flandres' },
     { path: '/Jeanne-de-Penthievre', component: JeanneDePenthièvre, name: 'Jeanne-de-Penthievre' },
-    { path: '/consigne', component: Consigne, name: 'Consigne' }
+    { path: '/consigne', component: Consigne, name: 'Consigne' },
+    { path: '*', redirect: '/' }
 ];
