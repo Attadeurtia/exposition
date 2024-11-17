@@ -12,20 +12,18 @@
 <script>
 import HeaderWithArrow from './HeaderWithArrow.vue'
 import FooterHeures from './FooterHeures.vue'
-import MapComponent from './MapComponent.vue'
 import DuchessesTimeline from './DuchessesTimeline.vue';
-
 
 
 export default {
   name: 'HomePage',
   components: {
     HeaderWithArrow,
-    MapComponent,
     FooterHeures,
     DuchessesTimeline
   }
 }
+
 </script>
 
 <style>
