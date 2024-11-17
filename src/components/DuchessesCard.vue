@@ -28,13 +28,13 @@ export default {
           name: 'Jeanne de Penthièvre',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Catherine_de_M%C3%A9dicis.jpg/800px-Catherine_de_M%C3%A9dicis.jpg',
           description: 'Léocadie',
-          route: '/Jeanne-de-Penthièvre', // Ajoutez la route ici
+          route: '/Jeanne-de-Penthievre', // Ajoutez la route ici
         },
         {
           name: 'Françoise d’Amboise',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Catherine_de_M%C3%A9dicis.jpg/800px-Catherine_de_M%C3%A9dicis.jpg',
           description: 'Julien',
-          route: '/Françoise-d-Amboise', // Ajoutez la route ici
+          route: '/Francoise-d-Amboise', // Ajoutez la route ici
         },
         {
           name: 'Marguerite de Bretagne',

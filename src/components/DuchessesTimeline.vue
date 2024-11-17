@@ -25,8 +25,8 @@ export default {
         return {
             duchesses: [
                 { id: 'Anne-de-Bretagne', name: 'Anne de Bretagne', period: '1488-1514', author: 'Nathan' },
-                { id: 'Jeanne-de-Penthièvre', name: 'Jeanne de Penthièvre', period: '1341-1365', author: 'Léocadie' },
-                { id: 'Françoise-d-Amboise', name: 'Françoise d\'Amboise', author: 'Julien' },
+                { id: 'Jeanne-de-Penthievre', name: 'Jeanne de Penthièvre', period: '1341-1365', author: 'Léocadie' },
+                { id: 'Francoise-d-Amboise', name: 'Françoise d\'Amboise', author: 'Julien' },
                 { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne', author: 'Geoffrey' },
                 { id: 'Jeanne-de-Flandres', name: 'Jeanne de Flandres', author: 'Cathy' }
             ],
@@ -72,7 +72,7 @@ export default {
 
 }
 
-.card-Jeanne-de-Penthièvre {
+.card-Jeanne-de-Penthievre {
     text-align: center;
     padding: 20px;
 
@@ -97,7 +97,7 @@ export default {
 
 }
 
-.card-Françoise-d-Amboise {
+.card-Francoise-d-Amboise {
     text-align: center;
     padding: 20px;
 

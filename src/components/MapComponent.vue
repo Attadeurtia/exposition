@@ -50,10 +50,10 @@ export default {
       // Array of points with coordinates, names, and routes
       points: [
         { name: "Anne de Bretagne", lat: 47.41322, lng: -1.219482, route: '/anne-de-bretagne' },
-        { name: "Françoise d'Amboise", lat: 47.4135, lng: -1.2190, route: '/Françoise-d-Amboise' },
+        { name: "Françoise d'Amboise", lat: 47.4135, lng: -1.2190, route: '/Francoise-d-Amboise' },
         { name: "Marguerite De Bretagne", lat: 47.4140, lng: -1.2185, route: '/Marguerite-de-Bretagne' },
         { name: "Jeanne de Flandres", lat: 47.4200, lng: -1.3000, route: '/Jeanne-de-Flandrese' },
-        { name: "Jeanne-de-Penthièvre", lat: 48.4140, lng: -1.3185, route: '/Jeanne-de-Penthièvre' },
+        { name: "Jeanne-de-Penthievre", lat: 48.4140, lng: -1.3185, route: '/Jeanne-de-Penthievre' },
 
       ],
     };
