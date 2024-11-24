@@ -15,13 +15,11 @@
       <div class="shape circle ellipse-bas-gauche"></div>
 
       <div class="texte" v-html="image.text"></div>
+      </div>
     </div>
+
   </div>
-
-</div>
-
-
-
+  <button @click="goBack" class="back-button">←</button>
 </template>
 
 <script>
@@ -63,11 +61,13 @@ methods: {
         const response = await import(`@/assets/markdown/JeanneDePenthievre/${image.id}.md`);
         image.text = md.render(response.default);
       } catch (error) {
-        console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
+          console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
+        }
       }
+    },
+    goBack() {
+      window.history.back();
     }
   }
-  ,
-},
 }
 </script>

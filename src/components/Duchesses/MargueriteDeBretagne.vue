@@ -19,9 +19,7 @@
     </div>
 
   </div>
-
-
-
+  <button @click="goBack" class="back-button">←</button>
 </template>
 
 <script>
@@ -66,8 +64,10 @@ export default {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
         }
       }
+    },
+    goBack() {
+      window.history.back();
     }
-    ,
-  },
+  }
 }
 </script>

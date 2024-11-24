@@ -64,11 +64,13 @@ methods: {
         const response = await import(`@/assets/markdown/FrançoisedAmboise/${image.id}.md`);
         image.text = md.render(response.default);
       } catch (error) {
-        console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
+          console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
+        }
       }
+    },
+    goBack() {
+      window.history.back();
     }
   }
-  ,
-},
 }
 </script>
