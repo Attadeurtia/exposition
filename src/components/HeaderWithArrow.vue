@@ -76,20 +76,27 @@ export default {
     font-size: 3.3rem;
     font-family: 'Inknut Antiqua', serif;
     font-weight: bold;
-    color: var(--primary-color);}
+    color: var(--primary-color);
+    margin: 10rem;
+}
 
 .subtitle {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 1rem;
     color: var(--text-color-light);
+    padding: 0 10rem;
+
+
+
 }
 
 .header-text {
     font-size: 1.2rem;
-    margin-top: 2rem;
+    margin-top: 10rem;
     text-align: left;
     line-height: 1.5;
+    margin-right: 15%;
+    margin-left: 15%
 }
 
 
@@ -100,6 +107,7 @@ export default {
     /* Espace entre le corps de texte et la flèche */
     cursor: pointer;
     animation: bounce 2s infinite;
+    margin-bottom: 18rem;
 }
 
 @keyframes bounce {
@@ -132,6 +140,7 @@ export default {
 
     .subtitle {
         font-size: 1.2rem;
+        padding: 0 7rem;
     }
 
     .header-text {
@@ -153,14 +162,20 @@ export default {
 
     .title {
         font-size: 2rem;
+        margin: 2rem 0 ;
     }
 
     .subtitle {
         font-size: 1rem;
+        margin-top: 3rem;
+        padding: 0 0rem;
     }
 
     .header-text {
         font-size: 0.875rem;
+        margin-top: 3rem;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .arrow-down {

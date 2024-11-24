@@ -22,7 +22,6 @@ export default {
 .footer {
   padding: 20px;
   text-align: left;
-  background-color: #aab3bd;
   margin-top: 200px;
 }
 h2{ 
@@ -38,12 +37,12 @@ router-link,
 
 .site-link a,
 router-link-active {
-  color: var(--link-color);
+  color: var(--like-color);
   text-decoration: none;
 }
 
 .site-link a:hover,
 .router-link-active:hover {
-  text-decoration: underline;
+  color: var(--success-color);
 }
 </style>

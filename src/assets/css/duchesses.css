@@ -185,3 +185,13 @@ p {
   bottom: 20px;
   right: 20px;
 }
+
+.back-button {
+  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
+  bottom: 10px;
+  font-size: 4rem;
+  cursor: pointer;
+  color: var(--link-color);
+  background: none;
+  border: none;
+}
