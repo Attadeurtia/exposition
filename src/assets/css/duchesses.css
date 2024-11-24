@@ -39,11 +39,10 @@
   font-size: 4rem;
   font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
   margin-top: 80px;
-  color: #c29961;
-}
+  color: var(--primary-color);}
 
 h1 {
-  color: #01A7C2;
+  color: var(--secondary-color);
   font-size: 3 rem;
   font-weight: bold;
 }
@@ -59,7 +58,7 @@ h3 {
   font-style: italic;
   /* Met le texte en italique */
 
-  color: #01A7C2;
+  color: var(--secondary-color);
 }
 
 h4 {

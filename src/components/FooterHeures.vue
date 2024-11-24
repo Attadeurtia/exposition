@@ -28,8 +28,7 @@ export default {
 h2{ 
   font-size: 1.5rem;
   font-weight: bold;
-  color: #c29961;
-
+  color: var(--primary-color);
 }
 
 router-link,
@@ -39,7 +38,7 @@ router-link,
 
 .site-link a,
 router-link-active {
-  color: #007BFF;
+  color: var(--link-color);
   text-decoration: none;
 }
 

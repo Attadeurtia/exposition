@@ -1,0 +1,25 @@
+/* variables.css */
+:root {
+    --primary-color: #FB8500;
+    --secondary-color: #FFB703;
+    --link-color: #01A7C2;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --text-color: #A3BAC3;
+    --text-color-light: #bec0c1;
+    --background-color: #023047;
+  }
+
+
+
+/*   :root {
+    --primary-color: #c29961;
+    --secondary-color: #01A7C2;
+    --link-color: #01A7C2;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --text-color: #A3BAC3;
+    --text-color-light: #bec0c1;
+    --background-color: #2c3e50;
+  } */
+  

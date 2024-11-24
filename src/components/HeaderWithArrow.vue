@@ -63,11 +63,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
 
 
-h1, h2 {
-  
-  
 
-}
 
 .section {
     font-family: 'Inknut Antiqua', serif;
@@ -80,14 +76,13 @@ h1, h2 {
     font-size: 3.3rem;
     font-family: 'Inknut Antiqua', serif;
     font-weight: bold;
-    color: #c29961;
-}
+    color: var(--primary-color);}
 
 .subtitle {
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 1rem;
-    color: #bec0c1;
+    color: var(--text-color-light);
 }
 
 .header-text {

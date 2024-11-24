@@ -185,6 +185,7 @@ export default {
     /* Ajoutez cette ligne pour supprimer le soulignement */
     color: inherit;
     /* Pour garder la couleur du texte normale */
+    
 }
 
 .card img {
@@ -238,6 +239,6 @@ export default {
 }
 
 h2 {
-    color: #01A7C2;
+    color: var(--link-color);
 }
 </style>
