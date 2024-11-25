@@ -1,9 +1,10 @@
 <template>
   <footer class="footer">
-    
+
     <ul>
       <h2>À propos</h2>
       <li><router-link to="/consigne">Consigne</router-link></li>
+      <li><router-link to="/mentions-legales">Sources</router-link></li>
       <li><a href="https://attadeurtia.github.io/blog/" target="_blank" rel="noopener noreferrer">Technicien</a></li>
       <li><a href="https://github.com/Attadeurtia/exposition" target="_blank" rel="noopener noreferrer">Code source</a>
       </li>
@@ -27,28 +28,20 @@ export default {
   justify-content: space-between;
   align-items: self-end;
   flex-wrap: wrap;
+
 }
-h2{ 
+
+h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
-router-link,
-.site-link {
-  margin-left: 20px;
-}
-
-.site-link a,
-router-link-active {
-  color: var(--like-color);
+a {
+  color: var(--link-color);
   text-decoration: none;
 }
 
-.site-link a:hover,
-.router-link-active:hover {
-  color: var(--success-color);
-}
 
 .footer-logo {
   height: 5rem;
@@ -61,10 +54,11 @@ router-link-active {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .footer-logo {
     order: -1;
     margin-bottom: 20px;
     align-self: center;
   }
-} 
+}
 </style>

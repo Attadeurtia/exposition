@@ -78,7 +78,7 @@ export default {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   /* Ajoutez cette ligne pour supprimer le soulignement */
-  color: inherit;
+ 
   /* Pour garder la couleur du texte normale */
 }
 

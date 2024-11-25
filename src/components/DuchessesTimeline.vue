@@ -185,6 +185,7 @@ export default {
     /* Ajoutez cette ligne pour supprimer le soulignement */
     color: inherit;
     /* Pour garder la couleur du texte normale */
+    color: var(--text-color-grey);
     
 }
 
