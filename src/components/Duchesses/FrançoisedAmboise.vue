@@ -21,7 +21,7 @@
 </div>
 
 
-
+<button @click="goBack" class="back-button">←</button>
 </template>
 
 <script>
