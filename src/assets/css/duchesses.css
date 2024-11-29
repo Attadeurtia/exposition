@@ -11,6 +11,14 @@
 
 }
 
+.descriptif h1 {
+  /* Styles spécifiques pour les éléments h1 à l'intérieur de .test */
+  font-size: 4rem;
+  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
+  margin-top: 80px;
+  color: var(--primary-color);
+}
+
 
 .container {
   display: flex;
@@ -43,7 +51,7 @@
   margin-top: 80px;
   color: var(--primary-color);}
 
-h1 {
+.item h1 {
   color: var(--secondary-color);
   font-size: 3 rem;
   font-weight: bold;
@@ -77,7 +85,7 @@ p {
   font-style: normal;
 }
 
-.descriptif {
+.descriptif p{
   font-size: 1.3rem;
   align-self: top;
   font-family: "Ibarra Real Nova", serif;

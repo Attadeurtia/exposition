@@ -1,6 +1,6 @@
 <template>
-  <h1 class="titre">Marguerite de Bretagne</h1>
-  <p class="descriptif">Marguerite de Bretagne est une princesse et par son mariage duchesse de Bretagne née en 1443 et morte le 25 septembre 1469. Elle est la fille aînée du duc François Ier de Bretagne et de sa seconde épouse, Isabelle d'Écosse, fille du roi Jacques Ier d'Écosse.</p>
+  <p class="descriptif" v-html="introHtml"></p>
+
   <MapComponent />
 
 
@@ -19,15 +19,16 @@
     </div>
 
   </div>
+
+
   <button @click="goBack" class="back-button">←</button>
 </template>
 
 <script>
 import MarkdownIt from 'markdown-it';
-import MapComponent from '../MapComponent.vue'
+import MapComponent from '../MapComponent.vue';
 import '@/assets/css/duchesses.css';
-
-
+import introMarkdown from '@/assets/Duchesses/Marguerite de Bretagne/introduction.md';
 
 export default {
   name: 'MargueriteDeBretagne',
@@ -51,6 +52,7 @@ export default {
   },
   mounted() {
     this.loadMarkdownTexts();
+    this.loadIntroMarkdown();
   },
   methods: {
     async loadMarkdownTexts() {
@@ -59,12 +61,15 @@ export default {
         try {
           // Charger le fichier Markdown correspondant à l'image
           const response = await import(`@/assets/Duchesses/Marguerite de Bretagne/${image.id} cartel.md`);
-          
           image.text = md.render(response.default);
         } catch (error) {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);
         }
       }
+    },
+    loadIntroMarkdown() {
+      const md = new MarkdownIt();
+      this.introHtml = md.render(introMarkdown);
     },
     goBack() {
       window.history.back();
