@@ -42,7 +42,7 @@ export default {
     };
   },
   async created() {
-    const context = require.context('@/assets/images/AnneDeBretagne', false, /\.(jpeg|jpg|png)$/);
+    const context = require.context('@/assets/Duchesses/Anne de Bretagne', false, /\.(jpeg|jpg|png)$/);
     this.images = context.keys().map((key, index) => ({
       id: index + 1,
       src: context(key),
@@ -59,7 +59,7 @@ export default {
       for (let image of this.images) {
         try {
           // Charger le fichier Markdown correspondant à l'image
-          const response = await import(`@/assets/markdown/AnneDeBretagne/${image.id}.md`);
+          const response = await import(`@/assets/Duchesses/Anne de Bretagne/${image.id}.md`);
           image.text = md.render(response.default);
         } catch (error) {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);

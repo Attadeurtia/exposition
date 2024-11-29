@@ -2,11 +2,13 @@
 .rectangle-32bfb2516c1d {
   margin: 60px;
 
-  background: #eaedea;
+  background: var(--background-color-cartel);
   border-radius: 0px;
   box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.2);
   padding: 40px 60px 40px;
   position: relative;
+  color: var(--text-color-grey);
+
 }
 
 
