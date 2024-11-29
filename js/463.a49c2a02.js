@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[463],{3463:function(e,n,a){a.r(n),n["default"]="# Anne de Bretagne \n\n## 1489\n\n#### Grand sceau  \n\n##### Provenance : charte de Anne, duchesse de Bretagne 1 - Archives Nationales"}}]);
-//# sourceMappingURL=463.a49c2a02.js.map

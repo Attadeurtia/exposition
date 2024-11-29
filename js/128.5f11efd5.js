@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[128],{128:function(n,e,u){u.r(e),e["default"]="# **Auteur**: Inconnu \n\n## **Date :** 1504 \n\n### **Titre :** *Second couronnement d’Anne de Bretagne* \n\n####  **Technique :** Inconnue\n\n##### **Provenance :** Waddesdon Manor"}}]);
-//# sourceMappingURL=128.5f11efd5.js.map
