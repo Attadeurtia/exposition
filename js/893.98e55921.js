@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[893],{893:function(e,n,r){r.r(n),n["default"]="# **Auteur :** Jean Bourdichon \n\n## Date : 1503-1508 \n\n### **Titre :** *Anne de Bretagne priant, entourée de sainte Anne, sainte Marguerite et sainte Ursule*, dans : *Grandes Heures d’Anne de Bretagne* \n\n#### **Technique :** Peinture sur parchemin, 30 × 19 cm, \n\n##### **Provenance :** BnF, département des Manuscrits, Latin 9474, fol. 3r"}}]);
+//# sourceMappingURL=893.98e55921.js.map
