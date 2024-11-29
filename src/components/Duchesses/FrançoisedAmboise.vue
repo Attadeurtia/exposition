@@ -33,7 +33,7 @@ import '@/assets/css/duchesses.css';
 
 
 export default {
-name: 'FrançoisedAmboise',
+name: 'MargueriteDeFoix',
 components: {
   MapComponent
 },
@@ -44,7 +44,7 @@ data() {
   };
 },
 async created() {
-  const context = require.context('@/assets/images/FrançoisedAmboise', false, /\.(jpeg|jpg|png)$/);
+  const context = require.context('@/assets/Duchesses/Marguerite de Foix', false, /\.(jpeg|jpg|png)$/);
   this.images = context.keys().map((key, index) => ({
     id: index + 1,
     src: context(key),
@@ -61,7 +61,7 @@ methods: {
     for (let image of this.images) {
       try {
         // Charger le fichier Markdown correspondant à l'image
-        const response = await import(`@/assets/markdown/FrançoisedAmboise/${image.id}.md`);
+        const response = await import(`@/assets/Duchesses/Marguerite de Foix/${image.id}.md`);
         image.text = md.render(response.default);
       } catch (error) {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);

@@ -45,7 +45,7 @@ export default {
     };
   },
   async created() {
-    const context = require.context('@/assets/Duchesses/Jeanne de Flandre', false, /\.(jpeg|jpg|png)$/);
+    const context = require.context('@/assets/Duchesses/Marguerite de Foix/', false, /\.(jpeg|jpg|png)$/);
     this.images = context.keys().map((key, index) => ({
       id: index + 1,
       src: context(key),
@@ -62,7 +62,7 @@ export default {
       for (let image of this.images) {
         try {
           // Charger le fichier Markdown correspondant à l'image
-          const response = await import(`@/assets/Duchesses/Jeanne de Flandre/${image.id}.md`);
+          const response = await import(`@/assets/Duchesses/Marguerite de Foix/${image.id}.md`);
           image.text = md.render(response.default);
         } catch (error) {
           console.error(`Erreur lors du chargement du fichier Markdown pour l'image ${image.id}:`, error);

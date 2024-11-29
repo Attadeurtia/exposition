@@ -31,10 +31,10 @@ export default {
           route: '/Jeanne-de-Penthievre', // Ajoutez la route ici
         },
         {
-          name: 'Françoise d’Amboise',
+          name: 'Marguerite de Foix',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Catherine_de_M%C3%A9dicis.jpg/800px-Catherine_de_M%C3%A9dicis.jpg',
           description: 'Julien',
-          route: '/Francoise-d-Amboise', // Ajoutez la route ici
+          route: '/Marguerite-de-Foix', // Ajoutez la route ici
         },
         {
           name: 'Marguerite de Bretagne',
