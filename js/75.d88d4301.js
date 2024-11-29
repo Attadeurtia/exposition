@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[75],{5075:function(e,n,u){u.r(n),n["default"]="Inconnu\n\n## 1503\n\n### Médaille Louis II et Marguerite de Foix\n\n#### Médaille en argent\n\nMusée des Beaux Arts de Lyon"}}]);
-//# sourceMappingURL=75.d88d4301.js.map

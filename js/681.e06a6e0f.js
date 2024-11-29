@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[681],{6062:function(e,u,n){n.r(u),u["default"]="Nous avons incorporé à notre exposition cette médaille en bronze sur laquelle est représentée Marguerite de Foix, de profil, seule au centre de la médaille. Il est peu commun de voir une femme représentée seule sur une médaille à cette époque, ce qui en fait une œuvre unique en son genre pour la Duchesse de Bretagne Marguerite de Foix. "}}]);
-//# sourceMappingURL=681.e06a6e0f.js.map

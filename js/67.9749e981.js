@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[67],{9067:function(e,n,r){r.r(n),n["default"]="# Maître Jeanne de France\n\n## Entre 1474 et 1477\n\n### François II et Marguerite de Foix, détail d’un décor de marge du Missel des Carmes\n\n#### Enluminure\n\n##### Université de Princeton, New Jersey.  "}}]);
+//# sourceMappingURL=67.9749e981.js.map
