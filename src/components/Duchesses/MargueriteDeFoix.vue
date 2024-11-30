@@ -5,6 +5,7 @@
 
   <div class="container">
     <div class="item" v-for="(image, index) in images" :key="index">
+      <div class="cartel">
       <img :src="image.src" :alt="image.alt">
       <!-- rect: Rectangle -->
       <div class="shape rect rectangle-32bfb2516c1d">
@@ -15,6 +16,8 @@
 
         <div class="texte" v-html="image.text"></div>
       </div>
+    </div>
+      <div class="justification" v-html="image.text2"></div>
     </div>
   </div>
 
@@ -42,7 +45,8 @@ export default {
   },
   async created() {
     await this.loadImages();
-    await this.loadMarkdownTexts();
+    await this.loadMarkdownTexts();  await this.loadJustificationTexts(); // Ajout de cette ligne
+
     this.loadIntroMarkdown();
   },
   methods: {
@@ -70,6 +74,20 @@ export default {
         })
       );
     },
+    async loadJustificationTexts() {
+      const md = new MarkdownIt();
+      await Promise.all(
+        this.images.map(async (image) => {
+          try {
+            const response = await import(`@/assets/Duchesses/Marguerite de Foix/${image.id} justification.md`);
+            image.text2 = md.render(response.default);
+          } catch (error) {
+            console.error(`Erreur lors du chargement du fichier Markdown de justification pour l'image ${image.id}:`, error);
+          }
+        })
+      );
+    },  
+
     loadIntroMarkdown() {
       const md = new MarkdownIt();
       this.introHtml = md.render(introMarkdown);
