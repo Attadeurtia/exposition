@@ -6,18 +6,24 @@
   <div class="container">
     <div class="item" v-for="(image, index) in images" :key="index">
       <div class="cartel">
-      <img :src="image.src" :alt="image.alt">
-      <!-- rect: Rectangle -->
-      <div class="shape rect rectangle-32bfb2516c1d">
-        <div class="shape circle ellipse-haut-droite"></div>
-        <div class="shape circle ellipse-haut-gauche"></div>
-        <div class="shape circle ellipse-bas-droite"></div>
-        <div class="shape circle ellipse-bas-gauche"></div>
+        <img :src="image.src" :alt="image.alt">
+        <!-- rect: Rectangle -->
+        <div class="shape rect rectangle-32bfb2516c1d">
+          <div class="shape circle ellipse-haut-droite"></div>
+          <div class="shape circle ellipse-haut-gauche"></div>
+          <div class="shape circle ellipse-bas-droite"></div>
+          <div class="shape circle ellipse-bas-gauche"></div>
 
-        <div class="texte" v-html="image.text"></div>
+          <div class="texte" v-html="image.text"></div>
+        </div>
       </div>
-    </div>
-      <div class="justification" v-html="image.text2"></div>
+      <div class="justification">
+        <div class="text-justification" v-html="image.text2"></div>
+        <div class="trais-3"></div>
+        <div class="trais-4"></div>
+        <div class="trais-1"></div>
+        <div class="trais-2"></div>
+      </div>
     </div>
   </div>
 
@@ -45,7 +51,7 @@ export default {
   },
   async created() {
     await this.loadImages();
-    await this.loadMarkdownTexts();  await this.loadJustificationTexts(); // Ajout de cette ligne
+    await this.loadMarkdownTexts(); await this.loadJustificationTexts(); // Ajout de cette ligne
 
     this.loadIntroMarkdown();
   },
@@ -86,7 +92,7 @@ export default {
           }
         })
       );
-    },  
+    },
 
     loadIntroMarkdown() {
       const md = new MarkdownIt();
