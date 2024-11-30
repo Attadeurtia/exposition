@@ -70,7 +70,10 @@ export default {
     text-align: center;
     margin: 5rem;
 
+
 }
+
+
 
 .title {
     font-size: 3.3rem;
@@ -96,8 +99,13 @@ export default {
     text-align: left;
     line-height: 1.5;
     margin-right: 15%;
-    margin-left: 15%
+    margin-left: 15%;
+    font-weight: 700;
+
+    
 }
+
+
 
 
 .arrow-down {

@@ -5,6 +5,22 @@
 /* ===============================
   Layout Components
   =============================== */
+
+  /* Webfont: Luciole-Regular */
+@font-face {
+  font-family: 'Luciole';
+  src: url('../Luciole_webfonts/Luciole-Regular/Luciole-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../Luciole_webfonts/Luciole-Regular/Luciole-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../Luciole_webfonts/Luciole-Regular/Luciole-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../Luciole_webfonts/Luciole-Regular/Luciole-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../Luciole_webfonts/Luciole-Regular/Luciole-Regular.svg#Luciole-Regular') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -55,7 +71,6 @@ p {
   align-self: top;
   font-family: "Ibarra Real Nova", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
   font-style: normal;
 }
 
@@ -73,14 +88,13 @@ p {
   font-size: 1.3rem;
   font-family: "Ibarra Real Nova", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
   font-style: normal;
   margin: 70px 15% 0;
   text-align: start;
 }
 
 .item {
-  margin-bottom: 200px;
+  margin-bottom: 250px;
   padding: 50px;
 }
 
@@ -203,6 +217,12 @@ padding-top: 60px;
 .text-justification {
   text-align: left;
   margin: 60px;
+}
+
+.text-justification p{
+  font-size: 1rem;
+  font-family: 'Luciole', sans-serif;
+  line-height: 1.6;
 }
 
 /* trais vertical */
