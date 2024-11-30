@@ -1,1 +1,0 @@
-Nous avons choisi d’intégrer à notre exposition cette médaille en argent sur laquelle sont représentés Marguerite de Foix et Louis II car nous pouvons voir sur cette œuvre la représentation de la Duchesse de Bretagne avec son premier époux en l’an 1503.

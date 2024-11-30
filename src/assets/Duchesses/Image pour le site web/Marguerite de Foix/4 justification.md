@@ -1,1 +1,0 @@
-Nous avons incorporé à notre exposition cette médaille en bronze sur laquelle est représentée Marguerite de Foix, de profil, seule au centre de la médaille. Il est peu commun de voir une femme représentée seule sur une médaille à cette époque, ce qui en fait une œuvre unique en son genre pour la Duchesse de Bretagne Marguerite de Foix. 
