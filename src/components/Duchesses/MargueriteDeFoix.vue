@@ -18,11 +18,7 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="item" v-for="(expo, index) in expos" :key="index">
-      <div class="texte" v-html="expo.text"></div>
-    </div>
-  </div>
+
 
   <button @click="goBack" class="back-button">←</button>
 </template>
