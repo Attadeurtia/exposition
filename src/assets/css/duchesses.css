@@ -84,6 +84,12 @@ p {
   color: var(--primary-color);
 }
 
+.descriptif h2 {
+  font-size: 2rem;
+  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
 .descriptif p {
   font-size: 1.3rem;
   font-family: "Ibarra Real Nova", serif;
