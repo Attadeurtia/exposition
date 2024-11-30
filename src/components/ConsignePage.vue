@@ -36,7 +36,21 @@
 <style scoped>
 
 .about {
-  padding: 12%;
+  padding: 10%;
   text-align: start;
 }
+
+.about h1{
+  font-family: "Luciole";
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  color: var(--primary-color);
+}
+
+.about p{
+  font-family: "Luciole";
+  line-height: 1.6;
+}
+
+
 </style>

@@ -6,8 +6,8 @@
       <li><router-link to="/consigne">Consigne</router-link></li>
       <li><router-link to="/mentions-legales">Sources</router-link></li>
       <li><a href="https://attadeurtia.github.io/blog/" target="_blank" rel="noopener noreferrer">Technicien</a></li>
-      <li><a href="https://github.com/Attadeurtia/exposition" target="_blank" rel="noopener noreferrer">Code source</a>
-      </li>
+      <li><a href="https://github.com/Attadeurtia/exposition" target="_blank" rel="noopener noreferrer">Code source</a></li>
+      <li><a href="https://www.luciole-vision.com" target="_blank" rel="noopener noreferrer">Typographie</a></li>
     </ul>
     <img src="@/assets/images/logo_LEMANS_UNIVERSITE_Blanc.png" alt="Logo" class="footer-logo">
   </footer>
