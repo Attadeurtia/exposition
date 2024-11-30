@@ -10,7 +10,3 @@ export default {
   name: 'NewPage', // Renommez ici
 };
 </script>
-
-<style>
-/* Ajoutez vos styles ici */
-</style>

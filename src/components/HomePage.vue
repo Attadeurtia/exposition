@@ -25,10 +25,13 @@ export default {
 </script>
 
 <style>
+@import '../assets/css/couleurs.css';
+
 #app {
   font-family: 'Luciole', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
   text-align: center;
   color: var(--text-color);
 }
