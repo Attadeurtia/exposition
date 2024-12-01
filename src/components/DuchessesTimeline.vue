@@ -1,6 +1,9 @@
 <template>
     <div class="group timeline">
-        <p class="Maison-Capetien">Maison Capetien</p>
+        <p class="Maison Capetien">Maison Capetien</p>
+        <p class="Maison Demontfort">Maison Demontfort</p>
+        <p class="Maison DeValois">Maison De Valois</p>
+
 
         <div class="duchesses-container">
             <div v-for="duchess in duchesses" :key="duchess.id" :class="['duchess-card', `card-${duchess.id}`]">
@@ -254,7 +257,7 @@ export default {
     position: absolute;
     left: 0px;
     width: 20px;
-    height: 5000px;
+    height: 4200px;
     border-radius: 12px;
 }
 
@@ -403,7 +406,7 @@ h2 {
     border-radius: 12px;
 }
 
-.Maison-Capetien {
+.Maison {
     position: absolute;
     z-index: 10;
     left: -15rem;
@@ -411,8 +414,20 @@ h2 {
     font-size: 3rem;
     font-weight: bold;
     color: var(--primary-color);
-    background-color: var(--background-color-cartel);
+    background-color: var(--background-color);
     padding: 20px;
     border-radius: 8px;
+}
+
+.Capetien {
+    top: 0;
+}
+
+.Demontfort {
+    top: 930px;
+}
+
+.DeValois {
+    top: 3830px;
 }
 </style>
