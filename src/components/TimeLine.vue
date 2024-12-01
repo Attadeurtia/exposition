@@ -1,7 +1,7 @@
 <template>
 
     <!-- group: Group -->
-    <div class="group group-2c511b0c6507">
+    <div class="group timeline">
         <!-- rect: Rectangle -->
         <div class="shape rect rectangle-2c43b97b4548">
         </div>
@@ -26,7 +26,7 @@ export default {
 
 
 /* Group */
-.group-2c511b0c6507 {
+.timeline {
     position: relative;
     left: 50%;
     top: 300px;

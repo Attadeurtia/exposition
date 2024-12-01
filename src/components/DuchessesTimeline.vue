@@ -1,7 +1,9 @@
 <template>
-    <div class="group group-2c511b0c6507">
+    <div class="group timeline">
+        <p class="Maison-Capetien">Maison Capetien</p>
+
         <div class="duchesses-container">
-            <div v-for="duchess in duchesses" :key="duchess.name" :class="'card-' + duchess.id">
+            <div v-for="duchess in duchesses" :key="duchess.id" :class="['duchess-card', `card-${duchess.id}`]">
                 <router-link :to="'/' + duchess.id" class="card">
                     <h2>{{ duchess.name }}</h2>
                     <p v-if="duchess.period">{{ duchess.period }}</p>
@@ -9,13 +11,32 @@
                 </router-link>
             </div>
         </div>
-        
-        <div v-for="(rectangle, index) in rectangles" 
-             :key="index" 
-             :class="['shape', 'rect', `rectangle-${rectangle}`]">
+        <div class="rect rectangle-0">
+            <div class="rect rectangle-2-1"></div>
+            <div class="rect rectangle-2-2"></div>
+            <div class="rect rectangle-3-1"></div>
+            <div class="rect rectangle-3-2"></div>
+            <div class="rect rectangle-4-1"></div>
+            <div class="rect rectangle-4-2"></div>
+            <div class="rect rectangle-5-1"></div>
+            <div class="rect rectangle-5-2"></div>
+            <div class="rect rectangle-6-1"></div>
+            <div class="rect rectangle-6-2"></div>
+            <div class="rect rectangle-7-1"></div>
+            <div class="rect rectangle-7-2"></div>
         </div>
     </div>
 </template>
+
+        <!--         <div v-for="(rectangle, index) in rectangles" 
+             :key="index" 
+             :class="['shape', 'rect', `rectangle-${rectangle}`]">
+        </div> -->
+
+        <!-- rect: Rectangle -->
+        
+
+
 
 <script>
 
@@ -27,11 +48,11 @@ export default {
                 { id: 'Anne-de-Bretagne', name: 'Anne de Bretagne', period: '1488-1514', author: 'Nathan' },
                 { id: 'Jeanne-de-Penthievre', name: 'Jeanne de Penthièvre', period: '1341-1365', author: 'Léocadie' },
                 { id: 'Marguerite-de-Foix', name: 'Marguerite de Foix', period: '1458-1486', author: 'Julien' },
-                { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne',period: '1458-1469',  author: 'Geoffrey' },
-                { id: 'Jeanne-de-Flandres', name: 'Jeanne de Flandres',period: '1295-1374',  author: 'Cathy' }
+                { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne', period: '1458-1469', author: 'Geoffrey' },
+                { id: 'Jeanne-de-Flandres', name: 'Jeanne de Flandres', period: '1295-1374', author: 'Cathy' }
             ],
-            rectangles: ['2c43b97b4548', '2c4f8b69fbc6', '2c4f8c4fba3f']
-        }
+/*             rectangles: ['2c43b97b4548', '2c4f8b69fbc6', '2c4f8c4fba3f']
+ */        }
     }
 };
 </script>
@@ -44,6 +65,10 @@ export default {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     text-decoration: none;
 }
+
+
+
+
 
 .card-Anne-de-Bretagne {
     text-align: center;
@@ -67,8 +92,8 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 200px;
-    left: -100px;
+    top: 3500px;
+    right: 350px;
 
 }
 
@@ -92,8 +117,8 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 1400px;
-    left: 100px;
+    top: 700px;
+    left: -350px;
 
 }
 
@@ -117,8 +142,8 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 500px;
-    left: -100px;
+    top: 2500px;
+    left: -350px;
 
 }
 
@@ -142,8 +167,8 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 1000px;
-    left: -100px;
+    top: 2500px;
+    left: 130px;
 
 }
 
@@ -167,8 +192,8 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 1700px;
-    left: 150px;
+    top: 1500px;
+    left: 130px;
 
 }
 
@@ -189,25 +214,166 @@ export default {
     
 }
 
+
+
+
 .card img {
     width: 100%;
-    
+
     border-radius: 8px;
 }
 
 
 /* Group */
-.group-2c511b0c6507 {
-    position: sticky;
-    left: 30%;
+.timeline {
+    
+    position: relative;
+    left: 50%;
 
-    width: 248px;
-    height: 2240.5px;
+    
+    height: 5000px;
 }
 
-/* Rectangle */
-.rectangle-2c4f8c4fba3f {
+@media (max-width: 480px) {
+    .timeline {
+        transform-origin: top left;
+        transform: scale(0.5);
+}
+}
+
+
+
+.rect {
+    background: #315cde;
+    border-radius: 12px;
     position: absolute;
+    width: 20px;
+}
+
+
+.rectangle-0 {
+    position: absolute;
+    left: 0px;
+    width: 20px;
+    height: 5000px;
+    border-radius: 12px;
+    background-color: aliceblue;
+}
+
+/* changer la distance des rectangles :crt + f sur 307px */
+.rectangle-1-1 {
+    left: 115px;
+    height: 300px;
+    top: calc(307px);
+    transform: rotate(-55deg);
+}
+
+
+.rectangle-1-2 {
+    left: 232px;
+    top: calc(307px + 222px);
+    height: 400px;
+}
+
+
+.rectangle-2-1 {
+    left: -115px;
+    height: 300px;
+    top: calc(307px);
+    transform: rotate(55deg);
+}
+
+
+.rectangle-2-2 {
+    left: -232px;
+    top: calc(307px + 222px);
+    height: 400px;
+}
+
+.rectangle-3-1 {
+    left: 115px;
+    height: 300px;
+    top: calc(307px + 830px);
+    transform: rotate(-55deg);
+}
+
+
+.rectangle-3-2 {
+    left: 232px;
+    top: calc(307px + 222px + 830px);
+    height: 400px;
+}
+
+
+.rectangle-4-1 {
+    left: -115px;
+    height: 300px;
+    top: calc(307px + 830px);
+    transform: rotate(55deg);
+}
+
+
+.rectangle-4-2 {
+    left: -232px;
+    top: calc(307px + 222px + 830px);
+    height: 400px;
+}
+
+.rectangle-5-1 {
+    left: 115px;
+    height: 300px;
+    top: calc(307px + 1830px);
+    transform: rotate(-55deg);
+}
+
+
+.rectangle-5-2 {
+    left: 232px;
+    top: calc(307px + 222px + 1830px);
+    height: 400px;
+}
+
+
+.rectangle-6-1 {
+    left: -115px;
+    height: 300px;
+    top: calc(307px + 1830px);
+    transform: rotate(55deg);
+}
+
+
+.rectangle-6-2 {
+    left: -232px;
+    top: calc(307px + 222px + 1830px);
+    height: 400px;
+}
+
+.rectangle-7-1 {
+    left: -115px;
+    height: 300px;
+    top: calc(307px + 2830px);
+    transform: rotate(55deg);
+}
+
+
+.rectangle-7-2 {
+    left: -232px;
+    top: calc(307px + 222px + 2830px);
+    height: 400px;
+}
+
+
+
+
+
+
+
+h2 {
+    color: var(--link-color);
+}
+
+.rectangle-1-2c4f8c4fba3f {
+    position: inherit;
     left: 228px;
     top: 1048px;
     width: 20px;
@@ -216,8 +382,8 @@ export default {
     border-radius: 12px;
 }
 
-/* Rectangle */
-.rectangle-2c4f8b69fbc6 {
+
+.rectangle-1-2c4f8b69fbc6 {
     position: absolute;
     left: 112.12px;
     top: 809.08px;
@@ -228,8 +394,8 @@ export default {
     border-radius: 8.08px;
 }
 
-/* Rectangle */
-.rectangle-2c43b97b4548 {
+
+.rectangle-1-2c43b97b4548 {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -239,7 +405,16 @@ export default {
     border-radius: 12px;
 }
 
-h2 {
-    color: var(--link-color);
+.Maison-Capetien {
+    position: absolute;
+    z-index: 10;
+    left: -350px;
+    font-family: 'Inknut Antiqua';
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
 }
 </style>
