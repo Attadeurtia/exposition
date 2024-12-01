@@ -77,6 +77,11 @@ p {
 /* ===============================
   Content Sections
   =============================== */
+
+.descriptif {
+  margin: 70px 15% 0;
+  padding: 0px;
+}
 .descriptif h1 {
   font-size: 4rem;
   font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
@@ -87,15 +92,15 @@ p {
 .descriptif h2 {
   font-size: 2rem;
   font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .descriptif p {
+  margin-top: 60px;
   font-size: 1.3rem;
   font-family: "Ibarra Real Nova", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  margin: 70px 15% 0;
   text-align: start;
 }
 
@@ -166,6 +171,21 @@ p {
   border: none;
 }
 
+.justification{
+  position: relative;
+  padding-top: 60px;
+  }
+  
+  .text-justification {
+    text-align: left;
+    margin: 60px;
+  }
+  
+  .text-justification p{
+    font-size: 1rem;
+    font-family: 'Luciole', sans-serif;
+    line-height: 1.6;
+  }
 
 
 /* ===============================
@@ -173,6 +193,13 @@ p {
   =============================== */
 @media (max-width: 768px) {
   .item {
+   flex-direction: column;
+   margin: 0px;
+   padding: 0px;
+   margin-bottom: 200px;
+  }
+
+  .cartel {
    flex-direction: column;
    margin: 0px;
   }
@@ -190,6 +217,14 @@ p {
 
   .titre {
    font-size: 2rem;
+  }
+
+  .text-justification {
+    margin: 30px;
+  }
+
+  .text-justification p{
+    font-size: 0.875rem;
   }
 }
 
@@ -210,26 +245,19 @@ p {
 
   .descriptif {
    font-size: 1rem;
-   margin-left: 7%;
-   margin-right: 7%;
+    margin: 3%;
+  }
+
+  .descriptif h1 {
+   font-size: 2.3rem;
+  }
+
+  .descriptif p {
+   font-size: 1rem;
   }
 }
 
-.justification{
-position: relative;
-padding-top: 60px;
-}
 
-.text-justification {
-  text-align: left;
-  margin: 60px;
-}
-
-.text-justification p{
-  font-size: 1rem;
-  font-family: 'Luciole', sans-serif;
-  line-height: 1.6;
-}
 
 /* trais vertical */
 .trais-4 {

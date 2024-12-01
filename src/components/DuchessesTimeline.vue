@@ -408,12 +408,12 @@ h2 {
 .Maison-Capetien {
     position: absolute;
     z-index: 10;
-    left: -350px;
+    left: -15rem;
     font-family: 'Inknut Antiqua';
     font-size: 3rem;
     font-weight: bold;
     color: var(--primary-color);
-    background-color: white;
+    background-color: var(--background-color-cartel);
     padding: 20px;
     border-radius: 8px;
 }
