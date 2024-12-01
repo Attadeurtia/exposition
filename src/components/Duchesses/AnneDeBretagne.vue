@@ -6,7 +6,7 @@
   <div class="container">
     <div class="item" v-for="(image, index) in images" :key="index">
       <div class="cartel">
-        <img :src="image.src" :alt="image.alt">
+        <img :src="image.src" :alt="image.alt" >
         <!-- rect: Rectangle -->
         <div class="shape rect rectangle-32bfb2516c1d">
           <div class="shape circle ellipse-haut-droite"></div>
@@ -59,12 +59,17 @@ export default {
     async loadImages() {
       const context = require.context('@/assets/Duchesses/Anne de Bretagne', false, /\.(jpeg|jpg|png)$/);
       this.images = await Promise.all(
-        context.keys().map(async (key, index) => ({
-          id: index + 1,
-          src: context(key),
-          title: `Image ${index + 1}`,
-          text: ''
-        }))
+      context.keys().map(async (key, index) => {
+        // Extract filename without extension and path
+        const fileName = key.split('/').pop().split('.')[0];
+        return {
+        id: index + 1,
+        src: context(key),
+        alt: fileName,
+        title: `Image ${index + 1}`,
+        text: ''
+        };
+      })
       );
     },
     async loadMarkdownTexts() {

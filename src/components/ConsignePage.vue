@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Consigne</h1>
+    <h1>Consignes</h1>
     <h2>Dossiers Expositions virtuelles</h2>
     <p>Le travail consiste &agrave; r&eacute;aliser, pour chaque groupe d&rsquo;&eacute;tudiant (3-4 personnes),
       u<strong>ne exposition virtuelle th&eacute;matique</strong>, en lien avec le th&egrave;me du cours (i.e. &laquo;
