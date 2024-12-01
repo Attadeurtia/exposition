@@ -246,7 +246,7 @@ export default {
 
 
 .rect {
-    background: var(--secondary-color);
+    background: var(--text-color-light);
     border-radius: 12px;
     position: absolute;
     width: 20px;
