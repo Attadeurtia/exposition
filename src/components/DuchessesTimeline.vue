@@ -85,15 +85,13 @@ export default {
     color: inherit;
     /* Pour garder la couleur du texte normale */
 
-
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     z-index: 10;
 
     top: 3500px;
-    right: 350px;
+    left: -350px;
 
 }
 
@@ -232,6 +230,7 @@ export default {
 
     
     height: 5000px;
+    width: 50%;
 }
 
 @media (max-width: 480px) {
@@ -244,7 +243,7 @@ export default {
 
 
 .rect {
-    background: #315cde;
+    background: var(--secondary-color);
     border-radius: 12px;
     position: absolute;
     width: 20px;
@@ -257,7 +256,6 @@ export default {
     width: 20px;
     height: 5000px;
     border-radius: 12px;
-    background-color: aliceblue;
 }
 
 /* changer la distance des rectangles :crt + f sur 307px */
@@ -272,7 +270,7 @@ export default {
 .rectangle-1-2 {
     left: 232px;
     top: calc(307px + 222px);
-    height: 400px;
+    height: 320px;
 }
 
 
@@ -287,7 +285,7 @@ export default {
 .rectangle-2-2 {
     left: -232px;
     top: calc(307px + 222px);
-    height: 400px;
+    height: 320px;
 }
 
 .rectangle-3-1 {
@@ -301,7 +299,7 @@ export default {
 .rectangle-3-2 {
     left: 232px;
     top: calc(307px + 222px + 830px);
-    height: 400px;
+    height: 320px;
 }
 
 
@@ -316,7 +314,7 @@ export default {
 .rectangle-4-2 {
     left: -232px;
     top: calc(307px + 222px + 830px);
-    height: 400px;
+    height: 320px;
 }
 
 .rectangle-5-1 {
@@ -330,7 +328,7 @@ export default {
 .rectangle-5-2 {
     left: 232px;
     top: calc(307px + 222px + 1830px);
-    height: 400px;
+    height: 320px;
 }
 
 
@@ -345,7 +343,7 @@ export default {
 .rectangle-6-2 {
     left: -232px;
     top: calc(307px + 222px + 1830px);
-    height: 400px;
+    height: 320px;
 }
 
 .rectangle-7-1 {
@@ -359,7 +357,7 @@ export default {
 .rectangle-7-2 {
     left: -232px;
     top: calc(307px + 222px + 2830px);
-    height: 400px;
+    height: 320px;
 }
 
 
