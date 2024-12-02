@@ -39,7 +39,7 @@ import '@/assets/css/duchesses.css';
 import introMarkdown from '@/assets/Duchesses/Jeanne de Flandre/introduction.md';
 
 export default {
-  name: 'JeanneDeFlandres',
+  name: 'JeannedeFlandre',
   components: {
     MapComponent
   },

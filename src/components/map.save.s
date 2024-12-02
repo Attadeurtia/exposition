@@ -51,7 +51,7 @@ export default {
       points: [
         { name: "Anne de Bretagne", lat: 47.41322, lng: -1.219482, route: '/anne-de-bretagne' },
         { name: "Catherine de Médicis", lat: 47.4135, lng: -1.2190, route: '/catherine-de-medicis' },
-        { name: "Jeanne de Flandres", lat: 47.4140, lng: -1.2185, route: '/jeanne-de-flandres' },
+        { name: "Jeanne de Flandre", lat: 47.4140, lng: -1.2185, route: '/jeanne-de-Flandre' },
       ],
     };
   },

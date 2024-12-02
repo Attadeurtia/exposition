@@ -52,7 +52,7 @@ export default {
         { name: "Anne de Bretagne", lat: 47.41322, lng: -1.219482, route: '/anne-de-bretagne' },
         { name: "Marguerite de Foix", lat: 47.4135, lng: -1.2190, route: '/Marguerite-de-Foix' },
         { name: "Marguerite De Bretagne", lat: 47.4140, lng: -1.2185, route: '/Marguerite-de-Bretagne' },
-        { name: "Jeanne de Flandres", lat: 47.4200, lng: -1.3000, route: '/Jeanne-de-Flandrese' },
+        { name: "Jeanne de Flandre", lat: 47.4200, lng: -1.3000, route: '/Jeanne-de-Flandree' },
         { name: "Jeanne-de-Penthievre", lat: 48.4140, lng: -1.3185, route: '/Jeanne-de-Penthievre' },
 
       ],

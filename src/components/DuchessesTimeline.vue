@@ -52,7 +52,7 @@ export default {
                 { id: 'Jeanne-de-Penthievre', name: 'Jeanne de Penthièvre', period: '1341-1365', author: 'Léocadie' },
                 { id: 'Marguerite-de-Foix', name: 'Marguerite de Foix', period: '1458-1486', author: 'Julien' },
                 { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne', period: '1458-1469', author: 'Geoffrey' },
-                { id: 'Jeanne-de-Flandres', name: 'Jeanne de Flandres', period: '1295-1374', author: 'Cathy' }
+                { id: 'Jeanne-de-Flandre', name: 'Jeanne de Flandre', period: '1295-1374', author: 'Cathy' }
             ],
 /*             rectangles: ['2c43b97b4548', '2c4f8b69fbc6', '2c4f8c4fba3f']
  */        }
@@ -173,7 +173,7 @@ export default {
 
 }
 
-.card-Jeanne-de-Flandres {
+.card-Jeanne-de-Flandre {
     text-align: center;
     padding: 20px;
 

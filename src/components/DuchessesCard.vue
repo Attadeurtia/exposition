@@ -43,10 +43,10 @@ export default {
           route: '/Marguerite-de-Bretagne', // Ajoutez la route ici
         },
         {
-          name: 'Jeanne de Flandres',
+          name: 'Jeanne de Flandre',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Catherine_de_M%C3%A9dicis.jpg/800px-Catherine_de_M%C3%A9dicis.jpg',
           description: 'Cathy',
-          route: '/Jeanne-de-Flandres', // Ajoutez la route ici
+          route: '/Jeanne-de-Flandre', // Ajoutez la route ici
         },
 
         // Ajoutez les autres duchesses ici
