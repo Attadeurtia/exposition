@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[167],{1167:function(e,n,r){r.r(n),n["default"]="# Maître de la Vierge\n\n## avant 1458\n\n### Folio 28 r tiré du Livre d’heures d’Isabelle Stuart\n\n#### Enluminures sur parchemin\n\nPage 28 du manuscrit (folio 14v) du livre d'heures de Isabelle Stuart représentant Marguerite de Bretagne, priant devant la Vierge et l'Enfant Jésus.\n"}}]);
+//# sourceMappingURL=167.17c017c2.js.map
