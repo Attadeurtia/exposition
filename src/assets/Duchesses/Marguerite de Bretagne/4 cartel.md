@@ -1,13 +1,9 @@
-#  Inconnu.
+# Inconnu.
 
-*premier quart du XVe*
+## premier quart du XVe*
 
+### Vitrail des Cordeliers de Nantes
 
-##  Chapelle Saint-Jacques à Merléac
+### aquarelle d'après un vitrail aujourd'hui disparu
 
-
-### Peintures murales
-
-Marguerite de Bretagne, épouse d'Alain IX présentée par sainte Marguerite, peintures murales de la chapelle Saint-Jacques à Saint-Léon, Merléac. Photographie lavieb-aile septembre 2017.
-
-Il est interessant de noté la différence de représentation entre les deux Marguerite ayant vécu à 50 ans d'intervalle. La première, Marguerite de Bretagne, épouse d'Alain IX, La seconde, Marguerite de Bretagne, épouse de François II.
+Aquarelle représentant un vitrail du couvent des Cordeliers de Nantes, détruit partiellement en 1835, 1869 et 1874 puis totalement en 1924
