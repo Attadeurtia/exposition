@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[602],{3602:function(e,n,r){r.r(n),n["default"]="# Inconnu.\n\n## premier quart du XVe*\n\n### Vitrail des Cordeliers de Nantes\n\n### aquarelle d'après un vitrail aujourd'hui disparu\n\nAquarelle représentant un vitrail du couvent des Cordeliers de Nantes, détruit partiellement en 1835, 1869 et 1874 puis totalement en 1924\n"}}]);
+//# sourceMappingURL=602.e64e05d0.js.map

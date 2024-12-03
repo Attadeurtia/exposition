@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[220],{458:function(e,a,n){n.r(a),a["default"]="La peinture intitulée \"La chapelle Saint-Jacques à Merléac\" représente également Marguerite de Bretagne en prière, dans une posture similaire à l'image précédente. Cependant, il ne s'agit pas de la même Marguerite de Bretagne, mais d'une homonyme née 51 ans avant. On peut l'identifier grâce à sa robe rouge ornée de quatre macles, qui sont les armoiries distinctives de la famille des Rohan."}}]);
+//# sourceMappingURL=220.00f463c1.js.map
