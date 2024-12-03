@@ -23,7 +23,6 @@ export default {
 .footer {
   padding: 20px;
   text-align: left;
-  margin-top: 200px;
   display: flex;
   justify-content: space-between;
   align-items: self-end;

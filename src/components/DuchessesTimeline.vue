@@ -53,6 +53,7 @@ export default {
                 { id: 'Marguerite-de-Foix', name: 'Marguerite de Foix', period: '1458-1486', author: 'Julien' },
                 { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne', period: '1458-1469', author: 'Geoffrey' },
                 { id: 'Jeanne-de-Flandre', name: 'Jeanne de Flandre', period: '1295-1374', author: 'Cathy' }
+
             ],
 /*             rectangles: ['2c43b97b4548', '2c4f8b69fbc6', '2c4f8c4fba3f']
  */        }
@@ -93,7 +94,7 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 3500px;
+    top: calc(307px + 222px + 2037px + 130px);
     left: -350px;
 
 }
@@ -143,7 +144,7 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 2500px;
+    top: calc(307px + 222px + 1520px + 200px);
     left: -350px;
 
 }
@@ -168,7 +169,7 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 2500px;
+    top: calc(307px + 222px + 1520px + 200px);
     left: 130px;
 
 }
@@ -193,7 +194,7 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: 1500px;
+    top: calc(307px + 1520px - 327px);
     left: 130px;
 
 }
@@ -232,7 +233,7 @@ export default {
     left: 50%;
 
     
-    height: 5000px;
+    height: 3300px;
     width: 50%;
 }
 
@@ -257,7 +258,7 @@ export default {
     position: absolute;
     left: 0px;
     width: 20px;
-    height: 4200px;
+    height: 3200px;
     border-radius: 12px;
 }
 
@@ -323,14 +324,14 @@ export default {
 .rectangle-5-1 {
     left: 115px;
     height: 300px;
-    top: calc(307px + 1830px);
+    top: calc(307px + 1520px);
     transform: rotate(-55deg);
 }
 
 
 .rectangle-5-2 {
     left: 232px;
-    top: calc(307px + 222px + 1830px);
+    top: calc(307px + 222px + 1520px);
     height: 320px;
 }
 
@@ -338,28 +339,28 @@ export default {
 .rectangle-6-1 {
     left: -115px;
     height: 300px;
-    top: calc(307px + 1830px);
+    top: calc(307px + 1520px);
     transform: rotate(55deg);
 }
 
 
 .rectangle-6-2 {
     left: -232px;
-    top: calc(307px + 222px + 1830px);
+    top: calc(307px + 222px + 1520px);
     height: 320px;
 }
 
 .rectangle-7-1 {
     left: -115px;
     height: 300px;
-    top: calc(307px + 2830px);
+    top: calc(307px + 2037px);
     transform: rotate(55deg);
 }
 
 
 .rectangle-7-2 {
     left: -232px;
-    top: calc(307px + 222px + 2830px);
+    top: calc(307px + 222px + 2037px);
     height: 320px;
 }
 
@@ -415,8 +416,7 @@ h2 {
     font-weight: bold;
     color: var(--primary-color);
     background-color: var(--background-color);
-    padding: 20px;
-    border-radius: 8px;
+    padding: 10px;
 }
 
 .Capetien {
@@ -428,6 +428,6 @@ h2 {
 }
 
 .DeValois {
-    top: 3830px;
+    top: 3030px;
 }
 </style>
