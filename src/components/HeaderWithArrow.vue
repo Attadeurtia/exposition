@@ -11,19 +11,15 @@
             <br><br>
 
             Cette exposition vous invite à explorer la richesse des représentations artistiques des duchesses de
-            Bretagne, allant des portraits royaux aux illustrations médiévales, en passant par les sculptures et les
-            gravures. Chaque œuvre témoigne de l'importance de ces femmes dans la société bretonne et française, tout en
-            reflétant les styles artistiques de leur époque.
+            Bretagne, allant des portraits royaux aux illustrations médiévales, en passant par les sculptures, les
+            sceaux et lettres. Chaque œuvre témoigne de l'importance de ces femmes dans la société bretonne et
+            française, tout en reflétant les styles artistiques de leur époque.
             <br><br>
-            En parcourant cette exposition, vous découvrirez non seulement les histoires fascinantes de ces duchesses,
-            mais aussi l'évolution de leur représentation à travers l'art. Nous espérons que cette immersion dans le
-            patrimoine visuel breton vous inspirera et vous permettra d'apprécier davantage l'héritage culturel de cette
-            région unique.
-
+            En parcourant cette exposition, vous découvrirez comment ces duchesses s'inscrivent dans l'histoire via
+            leurs représentations. Nous espérons que cette immersion dans le patrimoine visuel breton vous inspirera et
+            vous permettra d'apprécier le rôle de ces femmes de pouvoir dans notre héritage culturel.
             <br><br>
             Nous vous souhaitons une agréable visite !
-            <br><br>
-            écrit par IA
 
         </p>
         <div class="arrow-down" @click="scrollToNextSection">&#x2193;</div>
@@ -105,7 +101,7 @@ export default {
     margin-left: 15%;
     font-weight: 700;
 
-    
+
 }
 
 
@@ -173,7 +169,7 @@ export default {
 
     .title {
         font-size: 2rem;
-        margin: 2rem 0 ;
+        margin: 2rem 0;
     }
 
     .subtitle {
