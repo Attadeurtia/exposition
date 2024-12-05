@@ -6,4 +6,4 @@
 
 #### Enluminure
 
-La miniature représente l’assemblée des États réunie à Nantes pour reconnaître Jean de Montfort comme duc de Bretagne, fin mai 1341. La scène se déroule probablement dans une salle du château. A gauche, en toile de fond, un dais est tendu d’un tissu rouge matelassé, avec les côtés et le dessus réalisés dans un draperie verte à galons d’or.
+Cette enluminure représente ***l’assemblée des États de Bretagne*** réunie à Nantes pour reconnaître Jean de Montfort (présenté à gauche) comme duc de Bretagne, fin mai 1341. La scène se déroule probablement dans une salle du château.  À gauche, en toile de fond, un dais est tendu d’un tissu rouge matelassé, avec les côtés et le dessus réalisés dans une draperie verte à galons d’or. 

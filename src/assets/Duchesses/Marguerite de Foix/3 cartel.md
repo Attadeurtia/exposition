@@ -6,4 +6,6 @@
 
 #### Enluminure
 
-##### Université de Princeton, New Jersey.  
+##### Université de Princeton, New Jersey.
+
+###### Cette représentation du couple en prière scelle leur fidélité à la religion de leur vécu et pour la nuit des temps.
