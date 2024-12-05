@@ -1,8 +1,7 @@
 <template>
     <div class="section full-screen">
-        <h1 class="title" @click="goToNewPage">Exposition : les Duchesses de Bretagne</h1>
-        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Léocadie Prugné, Julien Foulon et Léo
-            Vincent </h2>
+        <h1 class="title">Exposition : les Duchesses de Bretagne</h1>
+        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Léocadie Prugné et Julien Foulon </h2>
         <p class="header-text">
             Bienvenue dans notre exposition virtuelle dédiée aux duchesses de Bretagne, figures emblématiques de
             l'histoire et de la culture bretonnes. À travers les siècles, ces femmes puissantes ont non seulement
