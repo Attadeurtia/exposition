@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[221],{7221:function(e,a,n){n.r(a),a["default"]="# Michel Colombe\n\n## début du XVIe siècle\n\n### Tombeau de François II de Bretagne\n\n#### gisants\n\nLe tombeau de François II de Bretagne et de Marguerite de Foix commandé par Anne de Bretagne à l'atelier du sculpteur *Michel Colombe* et à l'architecte *Jean Perréal*. Chef-d'œuvre de la sculpture funéraire de la Renaissance. Il est situé dans la cathédrale Saint-Pierre-et-Saint-Paul à Nantes."}}]);
+//# sourceMappingURL=221.10cb6ec2.js.map
