@@ -22,6 +22,9 @@
 
             <br><br>
             Nous vous souhaitons une agréable visite !
+            <br><br>
+            écrit par IA
+
         </p>
         <div class="arrow-down" @click="scrollToNextSection">&#x2193;</div>
 
