@@ -1,11 +1,11 @@
-#  Maître de Giac, Maître de Rohan et collaborateurs.
+# Peintre nantais
 
-*vers 1417 ou 1431*
+## 1464
 
+### Isabelle Stuart, duchesse de Bretagne, et ses deux filles Marguerite et Marie en prière devant une Pietà, miniature extraite d'un manuscrit de La Somme-Le roi de Laurent d'Orléans
 
-##  Heures dites d'Isabelle Stuart
+#### Enluminures sur parchemin
 
+##### BnF, ms. fr. 958, frontispice
 
-### Enluminures sur parchemin
-
-Le livre d'heures dit d'Isabelle Stuart est un livre d'heures médiéval vers 1417 ou 1431 sans doute par l'atelier du maître de Rohan pour Yolande d'Aragon. Il est actuellement conservé au Fitzwilliam Museum de Cambridge. Propriété de la duchesse de Bretagne, Isabelle d'Écosse appelée Isabelle Stuart, elle y a fait ajouter ses armes et a ainsi donné le nom d'usage de ce manuscrit.
+Peinture frontispice issu d'un manuscrit de La Somme-Le roi de Laurent d'Orléans représentant Isabelle Stuart, duchesse de Bretagne, et ses deux filles Marguerite de Bertagne et Marie en pière devant une vierge de douleur.
