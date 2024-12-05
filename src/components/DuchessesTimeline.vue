@@ -241,6 +241,7 @@ export default {
     .timeline {
         transform-origin: top left;
         transform: scale(0.5);
+        height: 2000px;
 }
 }
 
