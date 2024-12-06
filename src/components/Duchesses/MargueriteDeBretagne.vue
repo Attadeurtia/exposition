@@ -30,6 +30,8 @@
 
 
   <button @click="goBack" class="back-button">←</button>
+  <router-link to="/Bibliographie-Marguerite-De-Bretagne">Consignes</router-link>
+
 </template>
 
 <script>

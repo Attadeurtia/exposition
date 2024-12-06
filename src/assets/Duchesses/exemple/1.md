@@ -1,9 +1,9 @@
-#  Auteur
+# Auteur
 
 ## Date
 
 
-###  Nom de l'ouvrage
+### Nom de l'ouvrage
 
 
 #### Technique
