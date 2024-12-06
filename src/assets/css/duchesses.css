@@ -19,7 +19,9 @@
   text-rendering: optimizeLegibility;
 }
 
-
+a{
+  color: var(--link-color);
+}
 
 .container {
   display: flex;
