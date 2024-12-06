@@ -8,6 +8,7 @@ import JeannedeFlandre from './components/Duchesses/JeanneDeFlandre.vue';
 import JeanneDePenthièvre from './components/Duchesses/JeanneDePenthievre.vue';
 import Consigne from './components/ConsignePage.vue';
 import BibliographieGeneral from './components/Sources/BibliographieGeneral.vue';
+import GlossaireExpo from './components/GlossaireExpo.vue';
 
 export const routes = [
     { path: '/', component: HomePage, name: 'homepage' },
@@ -18,5 +19,6 @@ export const routes = [
     { path: '/Jeanne-de-Flandre', component: JeannedeFlandre, name: 'Jeanne-de-Flandre' },
     { path: '/Jeanne-de-Penthievre', component: JeanneDePenthièvre, name: 'Jeanne-de-Penthievre' },
     { path: '/consigne', component: Consigne, name: 'Consigne' },
-    { path: '/Bibliographie-Marguerite-De-Bretagne', component: BibliographieGeneral, name: 'BibliographieGeneral' }
+    { path: '/Bibliographie-Marguerite-De-Bretagne', component: BibliographieGeneral, name: 'BibliographieGeneral' },
+    { path: '/Glossaire', component: GlossaireExpo, name: 'GlossaireExpo' }
 ];

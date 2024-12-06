@@ -4,6 +4,8 @@ L'enluminure représente Marguerite de Bretagne arborant des attributs de riches
 
 Bien que la représentation de la duchesse dans cette enluminure soit somptueuse, le traitement démontre que marguerite de Bretagne est une duchesse mineure avec moins de ressources que sa contemporaine Marguerite de Foix.
 
+[test](/Glossaire)
+
 
 
 
