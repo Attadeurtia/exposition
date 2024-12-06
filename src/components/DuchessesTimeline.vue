@@ -1,6 +1,6 @@
 <template>
     <div class="group timeline">
-        <p class="Maison Capetien">Maison Capetienne</p>
+        <p class="Maison Capetien">Maison capétienne de Dreux</p>
         <p class="Maison Demontfort">Maison de Montforts</p>
         <p class="Maison DeValois">Maison des Valois</p>
 
