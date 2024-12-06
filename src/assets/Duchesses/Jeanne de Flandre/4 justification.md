@@ -1,0 +1,1 @@
+[Pour en savoir plus sur l'œuvre :](<https://perso.univ-lemans.fr/~l2400219/Combat_naval_JeannedeFlandre_critique_doeuvre_Cathy_LEBOUGRE.pdf>)

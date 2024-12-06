@@ -49,9 +49,9 @@ export default {
         return {
             duchesses: [
                 { id: 'Anne-de-Bretagne', name: 'Anne de Bretagne', period: '1488-1514', author: 'Nathan' },
-                { id: 'Jeanne-de-Penthievre', name: 'Jeanne de Penthièvre', period: '1341-1365', author: 'Léocadie' },
+                { id: 'Jeanne-de-Penthievre', name: 'Jeanne de Penthièvre', period: '1324-1384', author: 'Léocadie' },
                 { id: 'Marguerite-de-Foix', name: 'Marguerite de Foix', period: '1458-1486', author: 'Julien' },
-                { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne', period: '1458-1469', author: 'Geoffrey' },
+                { id: 'Marguerite-de-Bretagne', name: 'Marguerite de Bretagne', period: '1443-1469', author: 'Geoffrey' },
                 { id: 'Jeanne-de-Flandre', name: 'Jeanne de Flandre', period: '1295-1374', author: 'Cathy' }
 
             ],
