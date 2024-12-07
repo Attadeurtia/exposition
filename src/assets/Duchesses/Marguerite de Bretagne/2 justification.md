@@ -5,6 +5,3 @@ Le folio 16 Fv représente les trois duchesse les mains jointe, agenouillé en p
 Marguerite y est représentée en prière perpétuelle, au sein de sa famille, devant une Pietà, la Vierge de douleur. C'est une représentation classique, dans un style similaire à notre première image.
 
 [pour en savoir plus](https://perso.univ-lemans.fr/~s193316/Analyse%20dune%20oeuvre%20-%20Geoffrey%20Pose%CC%81.pdf)
-
-
-[Livre d'heures](/#/Glossaire)

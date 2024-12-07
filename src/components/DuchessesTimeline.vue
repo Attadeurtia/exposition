@@ -144,7 +144,7 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: calc(307px + 222px + 1520px + 200px);
+    top: calc(307px + 222px + 1520px + 162px);
     left: -350px;
 
 }
@@ -169,7 +169,7 @@ export default {
     justify-content: center;
     z-index: 10;
 
-    top: calc(307px + 222px + 1520px + 200px);
+    top: calc(307px + 222px + 1520px + 162px);
     left: 130px;
 
 }
