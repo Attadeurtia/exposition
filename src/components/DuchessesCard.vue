@@ -80,6 +80,7 @@ export default {
   /* Ajoutez cette ligne pour supprimer le soulignement */
  
   /* Pour garder la couleur du texte normale */
+
 }
 
 .card img {

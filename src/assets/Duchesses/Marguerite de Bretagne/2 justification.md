@@ -7,4 +7,4 @@ Marguerite y est représentée en prière perpétuelle, au sein de sa famille, d
 [pour en savoir plus](https://perso.univ-lemans.fr/~s193316/Analyse%20dune%20oeuvre%20-%20Geoffrey%20Pose%CC%81.pdf)
 
 
-[Livre d'heures](exposition/#/Glossaire)
+[Livre d'heures](/#/Glossaire)

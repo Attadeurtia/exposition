@@ -32,21 +32,13 @@ export default {
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: rem;
   color: var(--text-color);
 }
-
-a {
-  color: var(--link-color);
-  text-decoration: none;
-}
-
 
 .footer-logo {
   height: 5rem;
   bottom: -020;
-
 }
 
 @media (max-width: 600px) {

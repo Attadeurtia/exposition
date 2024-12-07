@@ -25,15 +25,4 @@ export default {
     padding: 10%;
     text-align: start;
 }
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    margin: 5%;
-    font-size: 2rem;
-    text-align: center;
-
-}
 </style>

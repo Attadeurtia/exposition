@@ -19,11 +19,47 @@
   text-rendering: optimizeLegibility;
 }
 
+body {
+  color: var(--text-color-grey); /* Couleur de texte par défaut */
+  font-family: "Luciole","Ibarra Real Nova", serif; /* Police de caractères par défaut */
+}
+
 a{
   color: var(--link-color);
   text-decoration: none;
-
 }
+
+
+
+h1{
+  text-align: center;
+  color: var(--primary-color);
+  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+}
+
+h4 {
+  font-style: bold;
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 1rem;
+  align-self: top;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.6;
+}
+
 
 .container {
   display: flex;
@@ -52,30 +88,6 @@ a{
   font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
   margin-top: 80px;
   color: var(--primary-color);
-}
-
-h2 {
-  font-style: italic;
-  font-size: 1rem;
-}
-
-h3 {
-  font-size: 1.3rem;
-  font-style: italic;
-  color: var(--secondary-color);
-}
-
-h4 {
-  font-style: bold;
-  font-size: 1.1rem;
-}
-
-p {
-  font-size: 1rem;
-  align-self: top;
-  font-family: "Ibarra Real Nova", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
 /* ===============================
@@ -108,21 +120,36 @@ p {
   text-align: start;
 }
 
+
 .item {
   margin-bottom: 250px;
   padding: 50px;
+  font-family: "Ibarra Real Nova", serif;
+  line-height: auto;
 }
 
 .item img {
   max-height: 30rem;
   height: auto;
   display: block;
+  
+  
 }
 
 .item h1 {
   color: var(--secondary-color);
-  font-size: 3rem;
-  font-weight: bold;
+  text-align: left;
+  font-family: 'Ibarra Real Nova', Arial, Helvetica, sans-serif;
+
+}
+
+.item h2{
+  text-align: justify;
+  font-style: italic;
+}
+
+.item h3{
+  font-style: italic;
 }
 
 .cartel {

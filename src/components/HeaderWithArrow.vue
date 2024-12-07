@@ -1,8 +1,8 @@
 <template>
-    <div class="section full-screen">
-        <h1 class="title">Exposition : les Duchesses de Bretagne</h1>
-        <h2 class="subtitle">Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Léocadie Prugné et Julien Foulon </h2>
-        <p class="header-text">
+    <div class="section">
+        <h1>Exposition : les Duchesses de Bretagne</h1>
+        <h2>Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Léocadie Prugné et Julien Foulon </h2>
+        <p>
             Bienvenue dans notre exposition virtuelle dédiée aux duchesses de Bretagne, figures emblématiques de
             l'histoire et de la culture bretonnes. À travers les siècles, ces femmes puissantes ont non seulement
             façonné le destin de leur région, mais ont également inspiré de nombreux artistes, qui ont immortalisé leur
@@ -63,48 +63,31 @@ export default {
 
 
 
-.section {
-    font-family: 'Inknut Antiqua', serif;
-    text-align: center;
-    margin: 5rem;
 
 
-}
-
-
-
-.title {
-    font-size: 3.3rem;
-    font-family: 'Inknut Antiqua', serif;
-    font-weight: bold;
-    color: var(--primary-color);
+h1 {
     margin: 10rem;
 }
 
-.subtitle {
+h2 {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--text-color-light);
     padding: 0 10rem;
-
-
-
+    font-family: Inknut Antiqua, serif;
+    font-style: italic;
 }
 
-.header-text {
+p {
     font-size: 1.2rem;
     margin-top: 10rem;
-    text-align: left;
-    line-height: 1.5;
+    line-height: 1.4;
     margin-right: 15%;
     margin-left: 15%;
-    font-weight: 700;
-
+    font-weight: 600;
+    font-family: "Ibarra Real Nova",serif;
 
 }
-
-
-
 
 .arrow-down {
     font-size: 2rem;
@@ -114,6 +97,8 @@ export default {
     cursor: pointer;
     animation: bounce 2s infinite;
     margin-bottom: 18rem;
+    font-family: Inknut Antiqua, serif;
+    text-align: center;
 }
 
 @keyframes bounce {
@@ -140,16 +125,16 @@ export default {
         margin: 20px;
     }
 
-    .title {
+    h1 {
         font-size: 3rem;
     }
 
-    .subtitle {
+    h2 {
         font-size: 1.2rem;
         padding: 0 7rem;
     }
 
-    .header-text {
+    p {
         font-size: 1rem;
     }
 
@@ -166,18 +151,18 @@ export default {
         margin: 20px;
     }
 
-    .title {
+    h1 {
         font-size: 2rem;
         margin: 2rem 0;
     }
 
-    .subtitle {
+    h2 {
         font-size: 1rem;
         margin-top: 3rem;
         padding: 0 0rem;
     }
 
-    .header-text {
+    p {
         font-size: 0.875rem;
         margin-top: 3rem;
         margin-left: 0%;

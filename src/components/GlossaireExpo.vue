@@ -1,5 +1,5 @@
 <template>
-
+<div class="Glossaire">
     <h1>Glossaire</h1>
     <p>
     <b>Enluminure</b> : Technique d'illustration de manuscrits médiévaux
@@ -16,6 +16,7 @@
     <br>
     <b>Livre d'heures</b> : Livre liturgique destiné aux fidèles catholiques laïcs permettant de suivre la liturgie des Heures.
 </p>
+</div>
 </template>
 
 <script>
@@ -28,15 +29,7 @@ export default {
 </script>
 
 <style scoped>
-h1{
-    font-size: 3rem;
-    text-align: center;
-}
-
-p{
+.Glossaire{
     padding: 12%;
-  font-family: "Luciole";
-  line-height: 1.6;
-
 }
 </style>

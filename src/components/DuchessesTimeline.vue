@@ -213,7 +213,7 @@ export default {
     color: inherit;
     /* Pour garder la couleur du texte normale */
     color: var(--text-color-grey);
-    
+    font-family: "Ibarra Real Nova", serif;
 }
 
 
@@ -237,13 +237,7 @@ export default {
     width: 50%;
 }
 
-@media (max-width: 480px) {
-    .timeline {
-        transform-origin: top left;
-        transform: scale(0.5);
-        height: 2000px;
-}
-}
+
 
 
 
@@ -366,11 +360,6 @@ export default {
 }
 
 
-
-
-
-
-
 h2 {
     color: var(--link-color);
 }
@@ -422,6 +411,7 @@ h2 {
 
 .Capetien {
     top: 0;
+    left: -24rem;
 }
 
 .Demontfort {
@@ -430,5 +420,23 @@ h2 {
 
 .DeValois {
     top: 3030px;
+}
+
+@media (max-width: 480px) {
+    .timeline {
+        transform-origin: top left;
+        transform: scale(0.5);
+        height: 2000px;
+}
+.Capetien {
+    left: -8rem;
+}
+
+.Demontfort {
+    left: -8rem;
+}
+
+.DeValois {left: -8rem;
+}
 }
 </style>
