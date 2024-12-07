@@ -1,10 +1,11 @@
 <template>
   <div id="HomePage">
+    <HeaderWithArrow />
+    <MapComponent />
+    <DuchessesTimeline />
+    <FooterHeures />
   </div>
-  <HeaderWithArrow />
-  <MapComponent />
-  <DuchessesTimeline />
-  <FooterHeures />
+
 </template>
 
 <script>
@@ -35,5 +36,4 @@ export default {
   text-align: start;
   color: var(--text-color);
 }
-
 </style>

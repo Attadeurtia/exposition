@@ -4,7 +4,7 @@
         <h2>Par : Nathan Trebert, Geoffrey Posé, Cathy Lebougre, Léocadie Prugné et Julien Foulon </h2>
         <p>
             Bienvenue dans notre exposition virtuelle dédiée aux duchesses de Bretagne, figures emblématiques de
-            l'histoire et de la culture bretonnes. À travers les siècles, ces femmes puissantes ont non seulement
+            l'histoire et de la culture bretonne. À travers les siècles, ces femmes puissantes ont non seulement
             façonné le destin de leur région, mais ont également inspiré de nombreux artistes, qui ont immortalisé leur
             image et leur héritage dans des œuvres iconographiques variées.
             <br><br>
@@ -62,11 +62,13 @@ export default {
 
 
 
-
+.section{
+    position: static;
+}
 
 
 h1 {
-    margin: 10rem;
+  margin: 10rem;  
 }
 
 h2 {
