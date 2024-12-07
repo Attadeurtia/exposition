@@ -2,7 +2,7 @@
   <p class="descriptif" v-html="introHtml"></p>
 
   <MapComponent />
-
+<p>la carte n'est pas encore implanté</p>
   <div class="container">
     <div class="item" v-for="(image, index) in images" :key="index">
       <div class="cartel">

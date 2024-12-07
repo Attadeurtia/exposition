@@ -3,7 +3,7 @@
   </div>
   <HeaderWithArrow />
   <MapComponent />
-  <DuchessesTimeline />
+<p>la carte n'est pas encore implanté</p>  <DuchessesTimeline />
   <FooterHeures />
 </template>
 
