@@ -1,0 +1,1 @@
+[Reine consort : Une reine consort est l'épouse d'un roi régnant, occupant un rôle symbolique et représentatif sans exercer de pouvoir politique.](#/Glossaire)
