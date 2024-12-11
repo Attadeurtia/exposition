@@ -29,6 +29,9 @@
             dimension documentaire, programmatique ou symbolique.
             <br>
             <br>
+            <b>Reine consort</b> : Une reine consort est l'épouse d'un roi régnant, occupant un rôle symbolique et représentatif sans exercer de pouvoir politique.
+            <br>
+            <br>
         </p>
     </div>
 </template>

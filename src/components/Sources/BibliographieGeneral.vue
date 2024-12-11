@@ -9,6 +9,9 @@
     <h2>Marguerite de Bretagne</h2>
     <BibliographieMargueriteDeBretagne />
 
+    <h2>Marguerite de Foix</h2>
+    <BibliographieMargueriteDeFoix/>
+
     <h2>Anne de Bretagne</h2>
     <BibliographieAnneDeBretagne/>
 </div>
@@ -18,13 +21,15 @@
 import BibliographieAnneDeBretagne from './BibliographieAnneDeBretagne.vue';
 import BibliographieJeanneDeFlandre from './BibliographieJeanneDeFlandre.vue';
 import BibliographieMargueriteDeBretagne from './BibliographieMargueriteDeBretagne.vue';
+import BibliographieMargueriteDeFoix from './BibliographieMargueriteDeFoix.vue';
 
 export default {
     name: 'BibliographieGeneral',
     components: {
         BibliographieMargueriteDeBretagne,
         BibliographieJeanneDeFlandre,
-        BibliographieAnneDeBretagne
+        BibliographieAnneDeBretagne,
+        BibliographieMargueriteDeFoix
     }
 };
 </script>
