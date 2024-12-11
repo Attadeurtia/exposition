@@ -29,7 +29,7 @@
 
 
 
-  <button @click="goBack" class="back-button">←</button>
+  <FlecheRetour/>
 </template>
 
 <script>
@@ -37,11 +37,13 @@ import MarkdownIt from 'markdown-it';
 import MapComponent from '../MapComponent.vue';
 import '@/assets/css/duchesses.css';
 import introMarkdown from '@/assets/Duchesses/Jeanne de Penthièvre/introduction.md';
+import FlecheRetour from '../FlecheRetour.vue';
 
 export default {
   name: 'JeanneDePenthievre',
   components: {
-    MapComponent
+    MapComponent,
+    FlecheRetour
   },
   data() {
     return {
@@ -98,9 +100,7 @@ export default {
       const md = new MarkdownIt();
       this.introHtml = md.render(introMarkdown);
     },
-    goBack() {
-      window.history.back();
-    }
+
   }
 }
 </script>

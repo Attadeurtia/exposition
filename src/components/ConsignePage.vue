@@ -31,7 +31,22 @@
       surmonter ; points forts et faiblesses de votre dossier, int&eacute;r&ecirc;t de l&apos;exercice) (<em>2000
         &agrave; 3500 signes, espaces compris</em>) ; une <strong>bibliographie</strong> de travail.</p>
   </div>
+  <FlecheRetour/>
 </template>
+
+<script>
+import FlecheRetour from './FlecheRetour.vue';
+
+
+
+export default {
+    name: 'ConsignePage',
+    components: {
+        FlecheRetour
+    },
+};
+
+</script>
 
 <style scoped>
 

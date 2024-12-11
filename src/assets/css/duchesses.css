@@ -192,15 +192,7 @@ p {
 /* ===============================
   Navigation
   =============================== */
-.back-button {
-  font-family: 'Inknut Antiqua', Arial, Helvetica, sans-serif;
-  bottom: 10px;
-  font-size: 4rem;
-  cursor: pointer;
-  color: var(--link-color);
-  background: none;
-  border: none;
-}
+
 
 .justification{
   position: relative;

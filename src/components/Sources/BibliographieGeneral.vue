@@ -15,9 +15,12 @@
     <h2>Anne de Bretagne</h2>
     <BibliographieAnneDeBretagne/>
 </div>
+
+<FlecheRetour/>
 </template>
 
 <script>
+import FlecheRetour from '../FlecheRetour.vue';
 import BibliographieAnneDeBretagne from './BibliographieAnneDeBretagne.vue';
 import BibliographieJeanneDeFlandre from './BibliographieJeanneDeFlandre.vue';
 import BibliographieMargueriteDeBretagne from './BibliographieMargueriteDeBretagne.vue';
@@ -29,7 +32,8 @@ export default {
         BibliographieMargueriteDeBretagne,
         BibliographieJeanneDeFlandre,
         BibliographieAnneDeBretagne,
-        BibliographieMargueriteDeFoix
+        BibliographieMargueriteDeFoix,
+        FlecheRetour
     }
 };
 </script>

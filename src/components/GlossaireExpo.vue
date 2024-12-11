@@ -34,13 +34,19 @@
             <br>
         </p>
     </div>
+    <FlecheRetour/>
 </template>
 
 <script>
+import FlecheRetour from './FlecheRetour.vue';
+
 
 
 export default {
     name: 'GlossaireExpo',
+    components: {
+        FlecheRetour
+    },
 };
 
 </script>
