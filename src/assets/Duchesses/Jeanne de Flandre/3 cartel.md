@@ -6,6 +6,8 @@
 
 #### Enluminure
 
+##### Chroniques, BnF, ms. fr. 2663, f°87 v°
+
 ##### enluminure issue des Chroniques de Jean Froissart. Gallica / BNF.
 
 Le siège d'Hennebont de 1342 est un épisode de la Guerre de succession de Bretagne. Les forces de Charles de Blois retiennent Jeanne de Flandre dans la cité, alors que celle-ci attend des renforts anglais. L'arrivée de ces derniers en juin 1342 provoque la levée du siège.  
