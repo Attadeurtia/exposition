@@ -31,6 +31,7 @@ export default {
   color: var(--link-color);
   background: none;
   border: none;
+  padding-left: 10%;
 
 }
 </style>

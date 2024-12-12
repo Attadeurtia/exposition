@@ -90,6 +90,6 @@ export default {
 
 <style scoped>
 .Glossaire {
-    padding: 12%;
+    padding: 10%;
 }
 </style>
