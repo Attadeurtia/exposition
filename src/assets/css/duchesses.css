@@ -97,6 +97,8 @@ p {
 .descriptif {
   margin: 70px 15% 0;
   padding: 0px;
+  margin-bottom: 20rem;
+
 }
 .descriptif h1 {
   font-size: 4rem;
