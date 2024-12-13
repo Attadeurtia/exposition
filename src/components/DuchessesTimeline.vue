@@ -19,8 +19,7 @@
             <div class="rect rectangle-2-2"></div>
             <div class="rect rectangle-3-1"></div>
             <div class="rect rectangle-3-2"></div>
-            <div class="rect rectangle-4-1"></div>
-            <div class="rect rectangle-4-2"></div>
+
             <div class="rect rectangle-5-1"></div>
             <div class="rect rectangle-5-2"></div>
             <div class="rect rectangle-6-1"></div>
