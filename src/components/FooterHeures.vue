@@ -4,7 +4,7 @@
     <ul>
       <h2>À propos</h2>
       <li><router-link to="/consigne">Consignes</router-link></li>
-      <li><router-link to="/Bibliographie-Marguerite-De-Bretagne">Sources</router-link></li>
+      <li><router-link to="/Bibliographie">Sources</router-link></li>
       <li><router-link to="/Glossaire">Glossaire</router-link></li>
       <li><a href="https://attadeurtia.github.io/blog/" target="_blank" rel="noopener noreferrer">Technicien</a></li>
       <li><a href="https://github.com/Attadeurtia/exposition" target="_blank" rel="noopener noreferrer">Code source</a></li>
