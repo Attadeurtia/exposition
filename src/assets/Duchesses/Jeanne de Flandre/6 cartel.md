@@ -6,4 +6,6 @@
 
 #### Lettre
 
-Lettre qui officialise l'utilisation réel du sceau 
+##### Archives nationales, J 241B, n°40
+
+Lettre qui officialise l'utilisation réel du sceau

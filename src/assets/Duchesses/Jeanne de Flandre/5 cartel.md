@@ -2,9 +2,9 @@
 
 ## 1342
 
-### Sceau de Jeanne de Flandre et la lettre de trêve conclue entre Jeanne de Flandre-Montfort et Charles de Blois
+### Sceau de Jeanne de Flandre
 
-#### Sceau et lettre
+#### Sceau
 
 ##### Archives nationales, J 241, n° 41. Numéro d’enregistrement :581, SC/D/545
 

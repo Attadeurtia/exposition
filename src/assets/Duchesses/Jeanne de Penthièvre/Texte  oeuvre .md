@@ -1,0 +1,13 @@
+Du Guesclin au tournoi de Rennes
+
+Le tournoi de Rennes, place de Lices a été organisé pour célébrer le mariage de Charles de Blois et Jeanne de Penthièvre en 1337, un événement marquant montre l’importance politique pour le duché de Bretagne. Jeanne de Penthièvre, en tant que nièce du duc Jean III, joue un rôle crucial pour la continuité dystatique. Son mariage avec Charles de Blois, pourrait garantir la succession au trône du duché, surtout en l’absence d'héritier direct de Jean III.
+
+L'enluminure “Du Guesclin au tournoi de Rennes” montre non seulement un moment clé de la carrière de Bertrand du Guesclin, mais elle symbolise aussi les enjeux politiques autour du mariage de Jeanne de Penthièvre. En effet, le tournoi met en valeur les talents de Bertrand du Guesclin, tout en célébrant l’union entre les deux familles nobles, ce qui renforce leurs alliances politiques.
+
+Bertrand du Guesclin, future figure importante de la guerre de cent ans, en tant que joueur anonyme souligne le thème du chevalier inconnu. Cela signifie que la véritable valeur d’un homme ne dépend pas de son nom ou de son statut social, mais de ses actes et de son courage. Cette idée attire l’attention dans le cadre des mariages nobles, où les alliances ne sont pas seulement des unions personnelles, mais aussi des stratégies politiques.
+
+Les armoiries de Jeanne de Penthièvre, bien qu’elle ne soit pas présente, sont importantes dans le contexte du tournoi qui célèbre son mariage. Les armoiries de Bertrand et de son cousin rappellent l’importance des lignées et des alliances dans l’identité noble.
+
+Enfin, le tournoi représente un symbole d’honneur et de gloire. Ces événements sont cruciaux pour renforcer la réputation et le statut des nobles. Pour Jeanne, épouser Charles de Blois est un moyen d’augmenter son influence et celle de sa famille, tout en jouant un rôle actif dans la politique du duché.
+
+L'œuvre Du Guesclin au tournoi de Rennes illustre bien comment les mariages au Moyen Âge peuvent influencer l'avenir des duchés et créer de nouvelles dynasties. Même si Jeanne de Penthièvre n'est pas directement présente dans l'enluminure, son rôle en tant que duchesse héritière est essentiel pour comprendre l'importance politique et sociale du tournoi. Cela montre que les mariages dans la noblesse ne sont pas seulement des événements personnels, mais des moments cruciaux qui peuvent changer le cours de l'histoire.
