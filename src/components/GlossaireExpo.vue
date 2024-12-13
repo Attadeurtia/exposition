@@ -9,7 +9,7 @@
     Jeanne de Penthièvre. Prétendant au duché de Bretagne du 30 avril 1341 au 29 septembre 1364.<br>
     <br>
     <b>Contrapposto</b> : Pose légèrement déhanchée de Jeanne de Flandre sur son sceau, typique de la
-    représentation des femmes au Moyen Âge.<br>
+    représentation Grec, très populaire comme représentation à la renaissance.<br>
     <br>
     <b>Dais</b> : Ouvrage d'architecture et de sculpture en pierre, en métal, de bois sculpté ou de tissus, qui
     sert à couvrir un trône, un autel, une chaire, ou une statue dans une niche.<br>
