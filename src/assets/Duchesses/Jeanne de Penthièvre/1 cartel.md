@@ -1,4 +1,8 @@
-Du Guesclin au tournoi de Rennes
+**Du Guesclin au tournoi de Rennes,** 
+
+Londres, British Library
+Yates Thomson 35
+folio 8.
 
 Le tournoi de Rennes, place de Lices a été organisé pour célébrer le mariage de Charles de Blois et Jeanne de Penthièvre en 1337, un événement marquant montre l’importance politique pour le duché de Bretagne. Jeanne de Penthièvre, en tant que nièce du duc Jean III, joue un rôle crucial pour la continuité dystatique. Son mariage avec Charles de Blois, pourrait garantir la succession au trône du duché, surtout en l’absence d'héritier direct de Jean III.
 
