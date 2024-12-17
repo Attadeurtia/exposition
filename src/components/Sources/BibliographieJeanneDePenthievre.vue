@@ -1,3 +1,4 @@
+<template>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
@@ -28,3 +29,5 @@
   <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=urn%3Aisbn%3A978-2-7373-7758-7&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Tr%C3%A9sors%20enlumin%C3%A9s%20de%20la%20Bretagne%20au%20Moyen%20%C3%82ge&amp;rft.place=Rennes&amp;rft.publisher=%C3%89ditions%20Ouest-France&amp;rft.aufirst=St%C3%A9phanie&amp;rft.aulast=Vincent-Langlois&amp;rft.au=St%C3%A9phanie%20Vincent-Langlois&amp;rft.date=2018&amp;rft.tpages=379&amp;rft.isbn=978-2-7373-7758-7"></span>
 </div></body>
 </html>
+
+</template>
