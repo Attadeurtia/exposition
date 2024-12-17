@@ -1,4 +1,4 @@
-# Inconnue
+# Inconnu
 
 ## 30 novembre 1367
 

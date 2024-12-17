@@ -7,3 +7,5 @@ En tant que duchesse, elle a utilisé cet emblème pour interpeller sa légitimi
 Les armoiries de Jeanne de Penthièvre, n'est plus qu'un simple emblème identitaire, illustrent les enjeux politiques, les alliances familiales et les conflits de la Bretagne médiévale.
 
 Ainsi, Jeanne de Penthièvre et l'histoire bretonne s'entrelacent dans un contexte de conflits dynastiques, tandis que les églises en Bretagne témoignent de la richesse culturelle et spirituelle de la région.
+
+[Schéma des armoiries](#/Glossaire)

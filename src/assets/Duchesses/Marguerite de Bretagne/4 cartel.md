@@ -1,4 +1,4 @@
-# Inconnu.
+# Inconnu
 
 ## 1443-1469
 

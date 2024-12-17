@@ -3,3 +3,5 @@ Le sceau de Jeanne de Penthièvre, duchesse de Bretagne de 1341 à 1364, montre 
 L'iconographie du sceau est très riche, avec des anges musiciens aux coins, mettant en avant le caractère sacré du pouvoir ducal. À cette époque, les duchesses, comme Jeanne, se servent de sceaux pour gérer leur douaire de manière autonome après le décès de leur mari. Ce sceau devient donc un symbole fort de leur identité.
 
 Au fil du temps, les sceaux féminins ont changé, passant d'une représentation masculine à des images plus personnelles et puissantes. À la fin du XIVe siècle, les armoiries montrent les alliances matrimoniales et le statut des femmes, soulignant leur rôle actif dans la politique. Le sceau de Jeanne de Penthièvre est un important témoignage du rôle des duchesses dans l'histoire de la Bretagne.
+
+[Schéma des armes de Jeanne de Penthièvre sur le sceau](#/Glossaire)
