@@ -72,15 +72,15 @@
             (selon le point de vue du spectateur qui regarde le blason).<br>
         </p>
         <div class="glossaire-image">
-            <img src="@/assets/Duchesses/Jeanne de Penthièvre/Schéma des armes de Jeanne de Penthièvre sur le sceau.jpeg"
+            <img src="@/assets/Duchesses/Jeanne de Penthièvre/autres images/Schéma des armes de Jeanne de Penthièvre sur le sceau.jpeg"
                 alt="Schéma des armes de Jeanne de Penthièvre sur le sceau">
             <i>Schéma des armes de Jeanne de Penthièvre sur le sceau</i>
         </div>
 
         <div class="glossaire-image">
-            <img src="@/assets/Duchesses/Jeanne de Penthièvre/Schéma des armoiries.jpeg" alt="Schéma des armoiries">
+            <img src="@/assets/Duchesses/Jeanne de Penthièvre/autres images/Schéma des armoiries.jpeg" alt="Schéma des armoiries">
 
-            <i>Schéma des armes de Jeanne de Penthièvre sur le sceau</i>
+            <i>Schéma des armoiries</i>
         </div>
     </div>
     <FlecheRetour />
