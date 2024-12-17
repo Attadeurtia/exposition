@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[468],{6468:function(e,n,u){u.r(n),n["default"]="# Inconnu\n\n## 1516\n\n### Médaille Marguerite de Foix\n\n#### Médaille en bronze coulé\n\n##### Musée des Beaux Arts de Lyon"}}]);
-//# sourceMappingURL=468.b7aef0bd.js.map

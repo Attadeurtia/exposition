@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[4674],{4674:function(n,e,u){u.r(e),e["default"]="# Inconnu\n\n## 9 juillet 1369\n\n### SCEL JEHANE DUCHESSE DE BRETAIGNE\n\n#### Sceau armorial\n\n##### Archives nationales, J 242 n°51\n\nSceau de Jeanne de Penthièvre, duchesse de 1341 à 1364"}}]);
+//# sourceMappingURL=4674.f5fd4afc.js.map

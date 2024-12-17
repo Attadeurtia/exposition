@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[7798],{7798:function(e,n,t){t.r(n),n["default"]="# Inconnu\n\n## 1342\n\n### La lettre de trêve conclue entre Jeanne de Flandre-Montfort et Charles de Blois\n\n#### Lettre\n\n##### Archives nationales, J 241B, n°40\n\nLettre qui officialise l'utilisation réel du sceau"}}]);
+//# sourceMappingURL=7798.441a583e.js.map

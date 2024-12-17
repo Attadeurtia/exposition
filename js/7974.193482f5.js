@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[7974],{7974:function(e,s,n){n.r(s),s["default"]="Cette œuvre est intégrée dans notre exposition car elle représente Marguerite de Foix à son avantage, avec sa couronne, sa tenue ornementée et la présence d’un lévrier, sa race de chien favorite, tous ces détails sont des éléments très symboliques .  Elle est couronnée deux fois reine de France, est la mère d’Anne de Bretagne et fait donc partie des Duchesses de Bretagne les plus importantes. "}}]);
+//# sourceMappingURL=7974.193482f5.js.map

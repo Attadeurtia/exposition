@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[5057],{5057:function(e,n,a){a.r(n),n["default"]="# Michel Colomb\n\n## 1502 - 1507\n\n### Gisant Marguerite de Foix et François II\n\n#### Monument funéraire\n\n##### Cathédrale Saint-Pierre et Saint-Paul de Nantes"}}]);
+//# sourceMappingURL=5057.343871c5.js.map
