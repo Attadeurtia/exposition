@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkexpo"]=self["webpackChunkexpo"]||[]).push([[159],{159:function(e,n,u){u.r(n),n["default"]="## **Bonus**\n\n# Inconnu\n\n## 30 novembre 1367\n\n### Sceau de Jeanne de Penthièvre\n\n#### Sceau\n\n##### Archives départementales de Loire-Atlantique, E218 N°16, 378 x 385 mm"}}]);
+//# sourceMappingURL=159.db6f9b50.js.map
