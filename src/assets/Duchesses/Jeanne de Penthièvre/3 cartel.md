@@ -2,7 +2,7 @@
 
 ## Après 1337
 
-### **Du Guesclin au tournoi de Rennes**
+### Du Guesclin au tournoi de Rennes
 
 #### Enluminure
 
